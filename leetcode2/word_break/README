@@ -1,0 +1,7 @@
+Determine whether a string can be split into dictionary words. 
+
+-- Dynamic programming. 
+-- T[i] whether the first i letters can be split int odictionary words. 
+-- T has length s.length() + 1; 
+-- T[0] is initialized to true and the rest is initialized to false. 
+-- T[i] = T[i] || T[j - 1] if s.substring(j - 1, i) in dictionary. Make sure to use OR (||) !!!!

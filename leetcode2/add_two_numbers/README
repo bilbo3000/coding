@@ -1,0 +1,4 @@
+Add two numbers that are represented as two linked lists. 
+
+-- Create helper add node method (reusability). 
+-- At the end, check whether carry is 1. Add carry node if necessary. 

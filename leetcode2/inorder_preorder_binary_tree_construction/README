@@ -1,0 +1,5 @@
+Construct binary tree from inorder and preorder binary tree traversal. 
+
+-- Recursion. 
+-- First element in preorder is the current root. Find that element in inorder. Then split and recursion 
+  on the two subarrays. 

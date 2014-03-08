@@ -1,0 +1,4 @@
+Add 1 to a number represented as an array. 
+
+-- carry initialize to 1. 
+-- If carry is 1 at the end, need to allocate an new int array with length + 1 and set MSB to be 1. 

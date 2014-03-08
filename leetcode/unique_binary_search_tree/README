@@ -1,0 +1,4 @@
+Lesson: 
+-- Recursion. 
+-- From 1 to n, use each number as root, then recursively process the left side and right side. 
+-- Need to find all pairs between left return values and right return values. Make sure to consider the situiations where left return values are empty or right return values are empty. 

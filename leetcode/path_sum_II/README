@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Do it recursively using a helper function. 
+-- Keep track of the path along the way. 
+-- When reach a leaf and its value is equal to the sum, then insert path into result set. 
+-- If not a leaf, insert current value into path, decrement sum by its value and recursive on left and right child with new path and new sum. 

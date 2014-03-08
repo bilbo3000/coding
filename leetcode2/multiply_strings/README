@@ -1,0 +1,7 @@
+Multiply two arbitrary large positive integers represented as strings. 
+
+-- Covnert strings to char arrays. The result should have have length of len1 + len2. 
+-- Reverse arrays to make it easy to work with. 
+-- Calculate digit and carry. 
+-- Consider the case where carry is not 0 after each inner loop. 
+-- Remove leading zeros, (consider the case where the result is 0 or multiply by 0). 

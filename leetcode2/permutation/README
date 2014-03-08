@@ -1,0 +1,4 @@
+Generate all permutaitons of a given array. 
+
+-- Recursion. 
+-- Insert current element at all possible positions for each sub-permutation from the recursive return values. 

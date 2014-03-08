@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Find the node where to start to reverse. (curr points to the nth node). 
+-- Reverse until curr pass the mth node (use a counter to keep track of which node curr is pointing to). 
+-- Use ALeft, Aright, BLeft, BRight to point to the four nodes to be break (just more clean).
+-- If ALeft if NULL, make sure to update head!!!
+-- Make sure do null check before calling stuff like curr->next. 

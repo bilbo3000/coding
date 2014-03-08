@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Use long long result to hold the result. 
+-- Ignore leading white spaces. 
+-- Ignore tailing non digit character. 
+-- Don't forget consider +/- sign. 
+-- Don't forget to handle exceeds the limit, return INT_MAX, INT_MIN. 

@@ -1,0 +1,4 @@
+Find number of unique paths from upper left to lower right with obstacles. 
+
+-- Dynamic programming. 
+-- When encounter obstacle, set to 0. Otherwise, T[i][j] = T[i][j - 1] + T[i - 1][j]; 

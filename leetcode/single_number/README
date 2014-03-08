@@ -1,0 +1,10 @@
+Lesson: 
+Approach 1: 
+-- Hash each number to a hash table; 
+-- If first time, set value to 1; 
+-- If not first time, increment value; 
+-- Then, walk through the hash table to see if any value is and return the key
+
+Approach 2: 
+-- Use XOR. 
+-- Elements that appear twice would cancel out and won't appear in the final result, only the single number would appear in the final result. 

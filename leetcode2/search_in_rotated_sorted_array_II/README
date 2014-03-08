@@ -1,0 +1,4 @@
+Determine whether an element exist in a rotated sorted array where duplicates are allowed. 
+
+-- Find the index of pivot point (the element that is greater than the one after it). 
+-- If A[0] < target, binary search A[0..i], otherwise, binary search A[i + 1..len - 1]. 

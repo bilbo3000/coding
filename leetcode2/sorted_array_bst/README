@@ -1,0 +1,5 @@
+Convert sorted array to binary search tree. 
+
+-- Recursion. 
+-- Two indexs i and j. mid = (i + j) / 2 to be the index of current node. Then recursion on left and right subarray. 
+-- If i > j, return null. 

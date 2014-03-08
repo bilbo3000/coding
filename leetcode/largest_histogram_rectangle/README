@@ -1,0 +1,17 @@
+Lesson: 
+-- Clever use of stack. 
+-- The core idea is to finalize the max area limited by each element. 
+-- The stack is used to keep track of the elements where the area limited by each element 
+  may still grow. (In creasing order, this would help us find the left bound index of area
+  limited by current top of stack). 
+-- Walk through each element. If current element is greater than or equal to tos, simply push it onto stack. 
+  This still guarantees that the max areas limited by each element in the stack may still grow. 
+-- If current element is less than tos, then pop out previous elements that is larger than 
+  current element and compute the max area that is limited by each previous element (using current element
+  and next element on as right bound and left bound respectively). This makes 
+  sense because current element is appearantly a bottom neck on the right (because it is smaller
+  than current tos). The next element on the stack is guarantee to be the left bottom neck because
+  it MUST be smaller than all elements that is after it and up to current element, otherwise, it 
+  would already be cleared out. 
+-- Also note that the only element in the stack is guaranteed to be the smallest element we have 
+  encountered so far, otherwise, it would be cleared out by smaller elements. 

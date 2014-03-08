@@ -1,0 +1,5 @@
+Lesson: 
+-- In post order traversal, the root would always be the last one. 
+-- Once we got the root from post order, we can find that root in inorder 
+    traversal and recursively process left subtree and right subtree. 
+-- Make sure to pass vector as reference to recursive calls to avoid it creates vector for each recursive call, which would waste lots of memory. 

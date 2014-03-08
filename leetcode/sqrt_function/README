@@ -1,0 +1,4 @@
+Lesson learned: 
+-- The key idea is to find a number n between 0 and x such that n * n is equal to x. 
+-- Thus, the problem can be transformed to a binary search problem. 
+-- Make sure to consider that cases where x is <0 (return 0), ==0 (return 0), and == 1 (return 1). 

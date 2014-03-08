@@ -1,0 +1,6 @@
+Simplify unix-like path. 
+
+-- Use stack. 
+-- Split path at "/". 
+-- Skip "." and "". For "..", pop from stack if stack is not empty. Otherwise, push onto stack. 
+-- Then loop through the stack to build the path. 

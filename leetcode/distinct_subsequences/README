@@ -1,0 +1,12 @@
+Lesson: 
+-- Dynamic programming. 
+-- Involves some ordering of letters. 
+-- table[i][j]: number of distinct subsequences of T[:j] in S[:i]. 
+-- If S[i] == T[j], we have two choices: 
+  1) Match current letter and move on to the sub structure: table[i][j] = table[i - 1][j - 1]. 
+  2) Do not match current letter and move on (by skipping S[i]): table[i][j] = table[i - 1][j]. 
+  Thus, the value should be the sum of two options: table[i][j] = table[i - 1][j - 1] (do not match) + table[i - 1][j]. 
+-- If S[i] != T[j], we only have one choice: no match and move on. 
+  table[i][j] = table[i - 1][j]. 
+  
+-- Note that need to initialize the first column. First row would just be zeros. (maybe except the first element). 

@@ -1,0 +1,5 @@
+Regular expression matching for '.' and '*'. 
+
+-- The core idea is that for '*', it has two options: first, skip * by increment j by 2; second, match by increment i by 
+  1. 
+-- The base cases are tricky. 

@@ -1,0 +1,6 @@
+Lesson: 
+-- BFS. Whenever need to process a tree in some sort of level by level fashion, consider using BFS. 
+-- Use a queue to do BFS and use a vector to keep track elements at each element. 
+-- Note that for the vector, we also keep track of NULL values. 
+-- When lev1 == 0, which means current level is done, use two pointers to walk the vector to check if it is mirror. 
+-- The queue should never store NULL values, it is used just for the BFS tree walk. 

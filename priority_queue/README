@@ -1,0 +1,22 @@
+8/31/2013
+
+Priority Queue Implementation. 
+
+Fields: 
+	-- int count
+	-- heap
+	
+Operations: 
+	-- Enqueue
+	-- Dequeue
+	-- Bottom up heap construction, construct from an array of element
+	-- Print level by level 
+	-- Swap(int &a, int &b)
+
+Lesson learned: 
+	-- Elements are put into an array, relations are enforced by index
+	-- floor() and pow() is in <cmath>
+	-- Enqueue, Dequeue: don’t forget to update count 
+	-- When finding max child, make sure to check if it actually has two children
+	-- Do actual swap, do not use the save approach (error prone). 
+	-- Shift operator (e.g. <<), returns a value, n << 1 won't update n. 

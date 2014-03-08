@@ -1,0 +1,6 @@
+Add two binary numbers in string representations. 
+
+-- Convert string binary number to char array: s.toCharArray(); 
+-- Maintain a carry. 
+-- Convert char array to result: String.valueOf(arr);
+-- If carry is 1 at the end, add "1" to the front of the result. 

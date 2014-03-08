@@ -1,0 +1,4 @@
+Lesson: 
+-- Approach 1: create a copy of the matrix. --> space (mn)
+-- Approach 2: create a two boolean array to keep track of whether a row or a column contians a zero. The key idea here is that is a row or a column contains at least one zero, we mark that row/column in the boolean array. --> space (m + n).  
+-- Approach 3: The same idea as previous one. But use long long variable as bit map to keep track of the history of zeros in row and column. 

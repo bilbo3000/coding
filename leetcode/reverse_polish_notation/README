@@ -1,0 +1,7 @@
+Lesson: 
+-- Use a stack. 
+-- Walk through the input: 
+  1) If current element is a number, push onto stack. 
+  2) If current element is an operator, pop two numbers from the stack to op2 and op1. 
+  3) Calculate op1 op op2, push the result back to the stack. 
+-- After running the algorithm, return the element left in the stack as result. 

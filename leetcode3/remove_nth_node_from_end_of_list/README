@@ -1,0 +1,6 @@
+Remove nth node from the end. 
+
+-- Use stack rather than recursive. 
+-- Walk through the list and push nodes onto stack. 
+-- Then walk backwards to find the nth node and remove it. 
+-- Consider the case where prev == null. 

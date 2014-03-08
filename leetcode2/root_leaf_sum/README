@@ -1,0 +1,4 @@
+Find the sum of all root to leaf numbers of a binary tree. 1->2->3 gives 123 as a root to leaf number. 
+
+-- Pass current sum along the recursive calls. Once hit a leaf, add current sum to the global sum. 
+-- Each recursive call adds the value of current node to the current sum first. Then move forward. 

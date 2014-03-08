@@ -1,0 +1,7 @@
+Copy list with random pointer. 
+
+-- Use a HashMap to map each origin node to corresponding node in the new list. 
+-- Loop through origin list, if current node does not have mapping, create new node and update map. Then attach the new 
+  node to the end of the new list (consider the case where head/tail== null). 
+-- Similarly, for each current node, also deep copy random pointer. Also check if the random target node in the map and 
+  create new random node accordingly. 

@@ -1,0 +1,5 @@
+Reverse an integer. 
+
+-- Two pointers move towards each other from two ends and swap. 
+-- Check negative. 
+-- Use long to hold the result to avoid int overflow. 

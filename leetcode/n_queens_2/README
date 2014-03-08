@@ -1,0 +1,7 @@
+Lesson: 
+-- DFS. 
+-- Pass reference of the count to recursive calls. 
+-- Use colForRow[n] to keep track of the queen column index for given row. 
+-- Use abs() to check diagonal conflicts. 
+-- Dynamic array is more efficient than vector when dealing with large 
+    date set. 

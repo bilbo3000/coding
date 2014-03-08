@@ -1,0 +1,5 @@
+Merge all overlap intervals in a list of intervals. 
+
+-- Sort the list based on start. Using Collections.sort() and Comparator. 
+-- Walk through the list. If current overlaps with next (curr.end >= next.start), extends next start to be min of starts
+  and end to be max of ends. Also remove current interval and re-examine current position. 

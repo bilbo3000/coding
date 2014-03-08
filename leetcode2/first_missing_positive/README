@@ -1,0 +1,7 @@
+Find the first missing positive number in an array. 
+
+-- Walk through the list backwards while maintain a var to track current first missing positive (init to len + 1). 
+-- For each element, if the value is equal to its position (val == index + 1) in the cell, move on to next position. 
+-- If current element <= 0, update var to be i + 1. 
+-- Otherwise, swap current element (if able to swap: 0 <= val - 1 < len) to its correct position. 
+-- Re-examine incomming element. 

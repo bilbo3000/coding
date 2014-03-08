@@ -1,0 +1,8 @@
+Find the minimum number of cuts that split the given string into palindromes. 
+
+-- Dynamic programming. 
+-- P[i][j]: whether s[i:j] is a palindrome. Using DP to check palindrome is faster than two pointers and recursion 
+  approach. 
+-- T[i]: the minimum number of palindromes within the first ith letters. 
+-- T is initialize with i. T[0] = 0, T[1] = 1, T[2] = 2, ..., because each letter is a palindrome by itself. 
+--if P[j - 1][i - 1] (palindrome), T[i] = Math.min(T[j - 1] + 1, T[i])

@@ -1,0 +1,2 @@
+Lesson learned: 
+-- When checking current node, make sure compare the current value to the value of left and right child (if exist), not their reference. 

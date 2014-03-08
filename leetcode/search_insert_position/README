@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Using binary search. 
+-- Make sure to consider special cases
+    1) A[mid] < target, if mid == right --> cannot move up, then return mid + 1. 
+    2) A[mid] > target, if mid == left --> cannot move down, then return mid. 

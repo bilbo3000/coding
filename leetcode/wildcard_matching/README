@@ -1,0 +1,22 @@
+Lesson: 
+Approach 1: recursion. 
+-- When *s == *p or *p == '?', match, recursion on s++ and p++. 
+-- When *p == '*', find a star, recursion on s, p++ (skip current *). 
+  If failed, then try recursion on s++, p (match current s and move on). 
+-- Fail on medium size tests. 
+
+Approach 2: dynamic programming. 
+-- T[i][j]: whether p[i:] can match s[j:].
+-- T[size(p)][size(s)] = true --> \0 matches \0 
+-- When *s == *p or *p == '?', match, T[i][j] = T[i + 1][j + 1] --> get from 
+  diagonal. 
+-- When *p == *, T[i][j] = T[i + 1][j] (skip *) || T[i][j + 1] (match a char).
+-- T is built from right to left in bottom up fashion. 
+-- Memory limit exceeds on large inputs. 
+
+Approach 3: iterative approach. 
+-- When *s == *p || *p == '?', match, must advance s and p --> s++, p++. 
+-- When *p == '*', save s and p, and just advance p. The core idea is that when it fails in the subsequence processing, 
+  it can restore s and p and try to let p match one more char in s. 
+-- When fail to match, restore p to previous pos of '*' and restore s to the char after previous save s pos. 
+-- Best solution. 

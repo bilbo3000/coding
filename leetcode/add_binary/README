@@ -1,0 +1,5 @@
+Lesson: 
+-- digit carry approach. 
+-- Make sure to update counter in while loops. 
+-- a[i] - '0' can tell if a[i] is 0 or 1. 
+-- After all the loops, make sure to check if carry is 1. If carry is 1, need to append a 1 in front. 

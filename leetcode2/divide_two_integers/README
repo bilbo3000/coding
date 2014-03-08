@@ -1,0 +1,9 @@
+Divide two integers. 
+
+-- Binary search. 
+-- Check if same sign using (dividend >>. 31) ^ (divisor >>> 31) == 1, then different sign. 
+-- Cast dividend and divisor to long and convert to absolute values. 
+-- Find the first curr such that curr * divisor > dividend. (curr is long type to avoid overflow). Then start binary 
+  search between prev and curr. 
+-- Always return curr at the end (like always return right in binary search). 
+-- Add negative sign accordingly. 

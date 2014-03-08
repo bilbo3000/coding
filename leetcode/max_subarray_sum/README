@@ -1,0 +1,4 @@
+Lesson: 
+-- DP. 
+-- T[i]: the max subarray ending with A[i]. 
+-- T[i] = max(T[i - 1] + A[i], A[i]), the idea is to decide whether the current element should be part of the previous max subarray or it should start a new max subarray. If including current element as part of previous subarray make it less than the current element itself, we should really make current element be the starting point of a new max subarray. 

@@ -1,0 +1,28 @@
+/*
+Given two sorted singly linked lists, implement a function to merge the two lists into a single sorted list and return its head. You may destroy the original lists if you want.
+ 
+You may use the JDK or the standard template library. The solution will be evaluated on correctness, runtime complexity (big-O), and adherence to coding best practices. A complete answer will include the following:
+ 
+Document your assumptions
+Explain your approach and how you intend to solve the problem
+Provide code comments where applicable
+Explain the big-O run time complexity of your solution. Justify your answer.
+Identify any additional data structures you used and justify why you used them.
+Only provide your best answer to each part of the question.
+*/
+/* Describe your approach here. 
+   My approach is to recursive determine the next values of the resulting singly linked list.
+ 
+   This *will* destroy the original linked list, which is permitted.
+ 
+   - first will determine which head to start, head1 or head2
+   - using that head, the next pointer will be the return value of the recursive call
+   - the recursive call will return the head of either head1 or head2
+   - will recurse until both head1 and head2 are NULL
+*/
+ 
+/* Enter your Big O Analysis here. 
+   O(n), we build a new linked list by iterating no more than the number of total nodes times
+*/
+ 
+/* Enter your code here. */

@@ -1,0 +1,5 @@
+Implement pow(double x, int n) function. 
+
+-- pow(x, n) = pow(x, n / 2) * pow(x, n / 2) * pow(x, n % 2)
+-- Note that do not compute pow(x, n / 2) twice. 
+-- Consider n is negative. Need to convert n to Math,abs(n). Use long instead int to avoid -n overflow. 

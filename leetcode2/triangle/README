@@ -1,0 +1,13 @@
+Find min path sum from top to bottom level of a triangle. 
+
+Approach 1: 
+-- Update level by level by calculating the min sum to each element. 
+-- Return the min at last level as the final result. 
+-- This approach requires modify the original triangle. 
+
+Approach 2: 
+-- Use an ArrayList p (size n + 1, initialize to 0) to keep track of the min path sum from 
+  bottom level to current level (bottom up). 
+-- Update p for current level based on p values obtained from previous level. 
+  p[i] = triangle[i] + Math.min(p[i], p[i + 1]); 
+-- Return p[0] as final result. 

@@ -1,0 +1,5 @@
+Generate next permutation. 
+
+-- The idea is to make the least increment. 
+-- Scan backwards, find the first droppoing point, and then find the first element that is greater than dropping point. 
+-- Swap two elements and reverse the subarray behind the dropping point. 

@@ -1,0 +1,10 @@
+Lesson: 
+-- Dynamic programming. 
+-- T[i][j]: whether the combine of first i letters in s1 and first j letters in s2 is interlaving 
+  of first i + j letter in s3. 
+-- T[i][j] = true if (ith letter in s1 == i + j th letter in s3 && T[i - 1][j] is true || 
+  jth letter in s2 == i + j th letter in s3 && T[i][j - 1] is true), otherwise, T[i][j] = false. 
+-- T[0][0] would be true. 
+-- If size1 + size2 != size3, directly return false. 
+-- The size of T is T[size1 + 1][size2 + 1]. 
+-- The result is T[size1][size2]. 

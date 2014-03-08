@@ -1,0 +1,9 @@
+Lesson learned: 
+-- public final Semaphore s = new Semaphore(1, true);  -- in java.util.concurrent.Semaphore; 
+-- Use Singleton pattern to represent critical section: 
+    -- Private constructor
+    -- private static instance variable, initialize with class object itself. 
+    -- GetInstance method that returns the instance. 
+-- Producer and consumer are threads. 
+-- Producer acquire 1 semaphore --> produce --> release 1 semaphore --> release 0 semaphore. 
+-- Consumer acquire 0 semaphore (make sure producer comes first) --> acquire 1 semaphore (make sure one thread access critical section at a time) --> consume --> release 1 semaphore. 

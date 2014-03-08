@@ -1,0 +1,11 @@
+9/6/2013
+
+Counting sort implementation 
+
+Lesson learned: 
+-- Count array has the size of the element range
+
+-- DO NOT mess up index with count !!!!!
+
+-- When Construct the output array, make sure to loop backward to make it stable. 
+

@@ -1,0 +1,6 @@
+Lesson: 
+-- Recursion + backtracking. 
+-- Backtracking is essentially using loops to recursively process all the feasible next level elements. When there are no feasible next level elements, it will just simply return. 
+-- Use a array columnForRow to keep track of the column index for given row i. With this array, we can check for column conflicts and diagonal conflicts (abs(row1 - row2) == abs(col1 - col2)). 
+-- Use one array to keep track of two dimensional information. (index is one dimenetion and values are another demension). 
+-- Collcect all the results --> DFS + pass result as reference along recursive calls and collect in the base case. 

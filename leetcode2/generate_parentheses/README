@@ -1,0 +1,6 @@
+Generate all possible n pairs of parentheses.
+
+-- Recursion. 
+-- Each recursive call, it tries to place a '(' and then a ')'. 
+-- Place '(' only when left count not exceeds n. 
+-- Place ')' only when right count is less than left count. 

@@ -1,0 +1,3 @@
+Lesson: 
+-- Initial carry = 1; 
+-- After finish looping all digits backwards, if carry == 1, insert a 1 at the beginning: vec.insert(vec.begin(), 1); 

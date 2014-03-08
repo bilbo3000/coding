@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Recursion, the type to do carry something all the way to the basis case. 
+-- Right parenthesis can be printed iff there are outstanding left parenthesis need to be balanced (left count > right count).
+-- Both the left count and right count cannot go beyond n. 

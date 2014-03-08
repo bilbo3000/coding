@@ -1,0 +1,11 @@
+Find the max path sum of a binary tree. May start and end at any node. 
+
+-- Recursion. 
+-- Each recursion call return max path sum that go through current node. 
+  Case 1: current value + return from left subtree. 
+  Case 2: current value + return from right subtree. 
+  Case 3: current value itself. 
+  
+-- Global max initialized to Integer.MIN_VALUE -2^31
+-- In addition to considering the return value of above three cases, global max also needs to compare against the case 
+  where the path goes through current node and lay in both left and right subtree. 

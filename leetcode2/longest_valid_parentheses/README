@@ -1,0 +1,10 @@
+Find the length of longest valid parentheses. 
+
+-- Use stack. 
+-- The core idea is that the last unmatched ')' or the first unmatched '(' would be used as dividers. 
+-- If current is '(', push its index onto stack. 
+-- If current is ')', then
+  If stack is empty, update lastLeft to be current index. 
+  Otherwise, pop the stack, 
+    if stack becomes empty, the length would be current - lastLeft; 
+    if stack is not empty, the length would be current - stack.peek(); 

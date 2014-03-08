@@ -1,0 +1,8 @@
+9/8/2013
+
+Implementation math pow function. 
+
+Lesson learned: 
+-- Zero power to zero is undefined 
+-- abs() is in <cmath> 
+-- After getting absExp, make sure to use it instead of exp

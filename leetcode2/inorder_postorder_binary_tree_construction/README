@@ -1,0 +1,5 @@
+Construct binary tree from inorder and postorder traversal. 
+
+-- Recursion. 
+-- The last element in postorder would be the root. Search that element in inorder. Then, split and recursion 
+  on corresponding two subarrys. 

@@ -1,0 +1,6 @@
+Lesson: 
+-- n^2 solution, two pointers; sort array first. 
+-- First pointer i scans trough input to check the triplet start with each element. Note that same starting element could be in multiple triplets. Also, avoid looking at duplicated elements to avoid duplicates. 
+-- Second pointer j always start from the end of the array and decrement by 1 if num[i] + num[k] + num[j] > 0 --> sum is too large, need to try smaller value. 
+-- Middle pointer starts from i + 1 position. It increment by 1 if num[i] + num[k] + num[j] < 0 --> sum is too small, need to try larger value. 
+-- If sum equal to 0, record the result. !!! However, both k and j need to advance to next distinct element because the same starting element may be in multiple triplets.  

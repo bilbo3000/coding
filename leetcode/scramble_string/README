@@ -1,0 +1,8 @@
+Lesson: 
+-- Recursion. 
+-- If two strings have different length, they cannot be scramble string. return false. 
+-- If two string have same length, but constains different set of letters, they cannot be 
+  scramble string, return false. (This step is important for speeding up). 
+-- Then check if current two strings are equal. If yes, return true. 
+-- Otherwise, try all possible splits of s1, then recursively compare it with the same split of 
+  s2 or the "swap-split" of s2 to see if both halves are scramble string. 

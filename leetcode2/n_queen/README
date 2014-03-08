@@ -1,0 +1,7 @@
+Generate all N Queen board placement for given size n. 
+
+-- Recursion. 
+-- Create an array rowcol to keep track of the column index for the queen placed at row i. 
+-- Use rowcol to check column and diagonal as well. If able to place at current column at current row,
+  recursion on next row. 
+-- Create a copy of an array: int[] temp = arr.clone(); 

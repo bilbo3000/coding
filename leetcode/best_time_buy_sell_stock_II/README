@@ -1,0 +1,6 @@
+Lesson: 
+-- Greedy. 
+-- For each stock price i and the price before (j), if buy j and sell i can make a profit, 
+  increase the total profit. 
+-- This approach makes sense because each stock can be bought and sold multiple times. (sell 
+  then buy). 

@@ -1,0 +1,7 @@
+Lesson learned: 
+-- Subtract divisor from dividend one by one is too slow. --> need to use shift. 
+-- Subtract divisor = divisor << 1 each time and increase the result by cnt = cnt << 1. If divisor becomes too large to subtract from dividend, roll back to original divisor and repeat. Until there is absolutely nothing to subtract from dividend. 
+-- Make sure to use long long type to deal with overflow. long long: 8 byte. 
+-- Do the calculation use absolute value. 
+-- Use (dividend ^ divisor) >> 31 to determine if negative result or not. Notice the parenthesis. 
+-- Convert inputs from integer to double before convert to absolute values. 

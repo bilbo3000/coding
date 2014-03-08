@@ -1,0 +1,8 @@
+Find all unique combinations that sum to target. 
+
+-- Recursion. 
+-- Each recursion, loop from current element to end to exam these elements. 
+-- If element at index is same as current target, add that element to the current list and return. 
+-- If element at index is greater than target, skip it. 
+-- If element at index is smaller than target, add it to current list and recursion on the remaining list with remaining
+  target. 

@@ -1,0 +1,5 @@
+Find all partitions of a string into palindromes. 
+
+-- Dynamic programming (similar idea as word break). 
+-- T[i]: a vector of starting indexs of palindrome substrings ending at s[i]. 
+-- DFS reconstruct from T[n - 1] while keep track of palindromes along the path. Collect a partition if reaches index 0.  

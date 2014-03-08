@@ -1,0 +1,7 @@
+Find the start station of a circle of gas stations. 
+
+-- Check the total gas and total cost. If total gas is no less than total cost, it can definitely go around a circle. 
+-- The idea is that if the gas-cost difference for a segment is negative, then use the station right after this 
+  segment as the new start station and start with a new segment. The last such start station must be solution. 
+-- If all we have seen are negative segments, the last segments must be positive and it must have enough gas to make 
+  up all the negatives of previous segments. (Since total gas is known to be no less than total cost)

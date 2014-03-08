@@ -1,0 +1,5 @@
+Merge two sorted array. 
+
+-- Move from end to start (thus no need for additional space). 
+-- If B becomes empty, A must already in place. 
+-- If A becomes empty, copy rest part of B. 

@@ -1,0 +1,6 @@
+Lesson: 
+-- Recursive. 
+-- Recursive on the elements start from the second element. 
+-- For the results returned from recursive calls, insert current at each position and use a history set to keep track of what we have seen. 
+-- If it is new, update the history and insert into result set. 
+-- Return result set. 

@@ -1,0 +1,16 @@
+Sort a linked list in O(nlogn) in constant space. 
+
+-- Merge sort on linked list. 
+-- Two pointers (slow, fast) traverse the linked list to split the list into two. If able to move fast, move fast. Then,
+  if able to move fast, move both slow and fast. slow would eventually point to the last node in the first half. 
+  
+  while (fast != null) {
+      fast = fast.next; 
+      
+      if (fast != null) {
+          fast = fast.next; 
+          slow = slow.next; 
+      }
+  }
+  
+-- When merging, do not forget to consider the case where the list is empty. 

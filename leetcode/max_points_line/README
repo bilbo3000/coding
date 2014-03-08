@@ -1,0 +1,18 @@
+Lesson: 
+-- O(n^2)
+-- The core idea is that for each point p as origin, figure out the maximum number of points among all the other points 
+  that lay on the lines that goes through p. Therefore, we only need to care about slope. 
+-- We don't need to actually calculate the slope. If the same slope, we can get the g = gcd(x_diff, y_diff) and 
+  x_diff/g, y_diff/g pairs should be the same for all points with same slope. Thus we know they are on the same line. 
+  We can thus use that pair as the key to the hash table. 
+-- Use gcd would also be able to handle points lay on the lines that parallel to x-axis (y_diff == 0) and parallel 
+  to y-axis (x_diff == 0). 
+-- Euclid gcd algorithm: 
+ int gcd(int a, int b) {
+  if (a == 0) return b; 
+  if (b == 0) return a; 
+  
+  return gcd(b, a % b); 
+ }
+ 
+ If gcd(a, b) == 0, then both a and b must be 0. 

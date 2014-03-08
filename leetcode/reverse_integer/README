@@ -1,0 +1,5 @@
+Lesson: 
+-- Consider negative numbers. Convert input to positive using abs(), if negative, set a boolean flag isNeg. Before return, do return isNeg? -result : result; 
+
+-- Condier 0 input. 
+-- Shifting input from left to right to get each dight, and push it to the output. 

@@ -1,0 +1,7 @@
+Find max profit. But can only involve in one transition at a time. Sell one stock before buying another one 
+  (i.e. can hold one stock at a time).  
+  
+-- Greedy approach. 
+-- If current price is greater than the immediate previous price, add the diff to the result. 
+-- Because we can only hold one transition at a time, this approach would make max profit. If we hold a stock for 
+  many days, we cannot make any transition during that period, which would miss some chances to make more profit. 

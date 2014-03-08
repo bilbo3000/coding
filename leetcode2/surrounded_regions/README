@@ -1,0 +1,12 @@
+Capture all 'O' that are surrounded by 'X'. 
+
+Approach 1: DFS. 
+-- Run dfs from 'O's from four edges and flip 'O' to '+'. 
+-- Rescan the board, if 'O' flip to 'X', if '+' flip to 'O'. 
+-- Fail the large tests. 
+
+Approach 2: BFS. 
+-- Run bfs from 'O's from four edges and flip 'O' to '+'. 
+-- Use queues to store x and y coordinates respectively. 
+-- Queue<Integer> q = new LinkedList<Integer>(); q.offer to insert to queue; q.poll to remove from queue. 
+-- BFS avoids recursion calls and able to pass large tests. 

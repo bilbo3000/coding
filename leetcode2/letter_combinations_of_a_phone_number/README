@@ -1,0 +1,5 @@
+Generate all possible letter combinations of a given digit sequence. 
+
+-- Recursion. 
+-- Create a HashMap<Character, String> between digit to corresponding letters. 
+-- Recursivelly append each letter pointed by digit at index to the recursion return values. 

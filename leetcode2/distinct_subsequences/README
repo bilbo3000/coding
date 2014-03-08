@@ -1,0 +1,10 @@
+Find the number of distinct subsequences of T in S. 
+
+-- Dynamic programming. 
+-- table[i][j] the number of distinct subsequences of first ith letters in T and first jth letter in S. 
+-- table[i][j] = table[i][j - 1] if T[i - 1] != S[j - 1];   
+               = table[i - 1][j - 1] + table[i][j - 1] if T[i - 1] == S[j - 1]; 
+-- Case 1: current letters don't match. Try to match current letter in T with previous letter in S. 
+-- Case 2: current letters match. There are two options: current letter in T can match current letter in S 
+  (table[i][j] = table[i - 1][j - 1]) OR current letter in T can choose not to match currnet letter in S
+  (table[i][j] = table[i][j - 1]). 

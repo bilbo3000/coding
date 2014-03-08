@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Use brute force approach. 
+-- Outer loop only needs to run N - M + 1 iterations. 
+-- Pointer p1 run through the text and p2 run through the pattern. p1adv (M - 1) char ahead of p1, so that when p1adv hits '\0', p1 would be on the N - M + 1 th char. Thus, we only need to run thorugh pattern to get M.  
+-- For each p1, run through pattern. Break if find *(p1 + i) != *(p2 + i). Note that using *(p1 + i), because it does not require modifying the pointer. 
+-- When checking empty string, use (!*needle), rather than (!needle). 

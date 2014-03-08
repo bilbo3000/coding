@@ -1,0 +1,4 @@
+Lesson: 
+-- Put current element into stack if it is not null. And move on to its left child. 
+-- If current element is null, pop stack, process it and move on to its right child. 
+-- while loop condition is while ( curr != NULL || s.size() != 0); 

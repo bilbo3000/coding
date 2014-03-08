@@ -1,0 +1,5 @@
+Find the longest common prefix of a set of strings. 
+
+-- Use trie. 
+-- Longest common prefix would have the same cnt (equals to the number of strings) at each node. 
+-- Walk through the trie to collect result. 

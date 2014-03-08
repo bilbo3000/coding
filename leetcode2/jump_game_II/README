@@ -1,0 +1,6 @@
+Find the minimum number of jumps to reach the last index. 
+
+-- Dynamic programming. 
+-- T[i]: min number of jumps to index i. 
+-- For each T[i], look at previous elements in 0 <= j < i such that is can jump to i in one step. Then get the min. 
+-- Initialize all the cells that can be reached by just 1 step to 1 in order to pass large tests. 

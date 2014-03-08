@@ -1,0 +1,5 @@
+Determine if given string is a palindrome. 
+
+-- Two pointers i and j move towards each other until they cross. 
+-- Skip non-alphanumeric chars. 
+-- Convert char to lower case: Character.toLowerCase(s.charAt(i)); 

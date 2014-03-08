@@ -1,0 +1,6 @@
+Binary tree inorder traversal. 
+
+-- If curr is not null, push curr onto stack and move to left child. 
+-- If curr is null, pop top of stack, process it and move on to the right child. 
+
+while (curr != 0 || s.size() != 0) { ... }

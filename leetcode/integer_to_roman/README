@@ -1,0 +1,7 @@
+Lesson learned: 
+-- Index on starting letter-value pairs: 1, 10, 100, 1000, etc... 
+-- If digit between 1 and 3, append current letters for certain times. 
+-- If digit is 4, append one current letter and one next letter. 
+-- If digit is between 5 and 8, append one next letter, and then append remaining 
+   number of curr letter (could be 0). 
+-- If digit is 9, append one next letter, and then append one next next letter. 

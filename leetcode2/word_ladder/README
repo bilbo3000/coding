@@ -1,0 +1,7 @@
+Find the length of shortest transformation path from start to end where intermediate elements are in dictionary. 
+
+-- BFS from start to end. 
+-- Toggle lev1 and lev2 to keep track of current level and next level. 
+-- Use a boolean flag to control the while loop. If any element in current level adjacent to end or cannot get next 
+  level, then set the boolean flag which will terminate the while loop. 
+-- Global counter counts the shortest path. 

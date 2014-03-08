@@ -1,0 +1,4 @@
+Lesson: 
+-- curr walk through the list. 
+-- Each iteration, it curr->next is the same as current, remove curr->next, otherwise, advance curr. 
+-- Each time before calling curr->next, make sure to check curr != NULL. 

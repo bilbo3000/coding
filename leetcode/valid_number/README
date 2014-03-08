@@ -1,0 +1,6 @@
+Lesson: 
+-- Clever use of regular expression. 
+-- String regex = "\\s*[+-]?(\\d+\\.?|\\d*\\.\\d+)(e[+-]?\\d+)?\\s*";
+-- Leading and tailing white spaces do not take into account. 
+-- Before the whole number and before the exponential number, there would be an optional +,- sign. 
+-- A number could have a dot. Something like 0, 0., 0.0, .0 .

@@ -1,0 +1,9 @@
+Lesson: 
+-- Dynamic programming. 
+-- Create vector array arr with size n + 1 and initialize to 1. 
+-- arr[i] means numbers of decode ways update to s[i]. 
+-- If s[i] is '0', then arr[i] should be zero. 
+-- If s[i] is not zero: 
+    1) if s[i] does not combine with s[i + 1], arr[i] would just be arr[i + 1]. 
+    2) if s[i] is able to combine with s[i + 1], arr[i] would be the sum of arr[i + 1] and arr[i + 2]. 
+-- Combine is tricky. If s[i] == '1', s[i + 1] can be anything. If s[i] == '2', s[i + 1] must be <= '6'; 

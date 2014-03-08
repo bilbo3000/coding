@@ -1,0 +1,10 @@
+Lesson: 
+-- Iterative pre order tree walk. 
+-- while (curr != NULL || s.size() != 0)
+-- For each curr node: 
+    1) if NULL, pop and make prev->right = curr; 
+    2) if not null: 
+        -- push curr->right if not NULL; 
+        -- move curr->left to curr->right (this is fine since curr->right has been saved on the stack)
+        -- Don't forget to set curr->left to NULL (save it before set to NULL). 
+        -- Move to the saved curr->left.

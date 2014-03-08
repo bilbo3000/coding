@@ -1,0 +1,6 @@
+Lesson: 
+-- Recursion. 
+-- For each element in the set, to see if any of it can be the current element. 
+-- Recursive on the remaining set start from the next element. 
+-- Pass current collection along the way. When current element is equal to target, insert current collection into the result set. 
+-- Make sure to continue the searching even it finds a solution. 

@@ -1,0 +1,6 @@
+Traverse binary tree level by level in zig zag fashion. 
+
+-- BFS. 
+-- Toggle lev1 and lev2. 
+-- Use a counter to determine whether to reverse current level. 
+-- Reverse an ArrayList: Collections.reverse(al); 

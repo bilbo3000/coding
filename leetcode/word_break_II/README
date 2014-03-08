@@ -1,0 +1,12 @@
+Lesson: 
+Approach 1: Dynamic Programming. 
+-- T[i]: vector of segmented sentences ending with char at index i. 
+-- To calcualte T[i], find every suffix from s[:i] that are in dict and build
+	sentences with sentences in T[i - len]. 
+-- Memory limit exceeds...   
+
+Approach 2: Dynamic programming + DFS. 
+-- T[i]: vector of starting index of dictionary work ending at s[i]. 
+-- For each index i, run through j from i to 0 and collect index j if s.substr(j, i - j + 1) is in dict. 
+-- After building T, use DFS to generate all sentences. At each step, try all possible index. Accept a sentence 
+	if index continuously go all the way the to beginning. 

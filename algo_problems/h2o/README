@@ -1,0 +1,5 @@
+Lesson learned: 
+-- semaphore s1 (1) makes sure only one thread access critical section. 
+-- semaphore s2 (0) makes sure that consume can enter only when there are two 'H' in the buffer. 
+-- s2 is release() by producer EVERY OTHER iteration --> guarentee two 'H' in the buffer. Using % to decide. 
+-- Singleton pattern for critical section. 

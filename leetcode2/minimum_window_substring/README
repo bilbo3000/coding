@@ -1,0 +1,8 @@
+Find the minimum window that contains all the letters in given pattern. 
+
+-- Maintain a window that always satisfy the constraint, by using a HashTale hasFound to keep track of the cnt of letters
+  in the window. 
+-- Build another HashTable needToFind to represent the cut of each letter in the pattern need to be found. 
+-- Find the first window, then each time when moving the right side of the window, try to move the left side as far as 
+  possible. 
+-- Update the min-window accordingly. 

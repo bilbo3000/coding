@@ -1,0 +1,4 @@
+Lesson: 
+-- Two approaches: 1) recursive; 2) DP. 
+-- Recursive: each stage, if able to move right, then move right, and recursive. When recursive call returns, if able to move down, then move down, and recursive. When reach right corner, increment count. --> time consuming. 
+-- DP: the possible way of reaching current point is the sum of possible ways to reach the left position and the possible ways to reach the above position. Top row and left column are initialized to all 1s. 

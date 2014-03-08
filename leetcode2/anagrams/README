@@ -1,0 +1,9 @@
+Find all anagrams (could be different). 
+
+-- Sort each element as key: 
+  char[] keyarr = s.toCharArray(); 
+  Arrays.sort(keyarr);
+  String key = new String(keyarr); 
+-- Use a HashMap<String, ArrayList<String>> to map between keys and strings.
+-- If same key more than once, collect that key (use HashSet to avoid collecting same key multiple times). 
+-- Collect all the strings under the collected keys. 

@@ -1,0 +1,27 @@
+Find the single number that does not appear three times. 
+
+Approach 1: (O(n) space complexity)
+-- Use a HaspMap to count each element. 
+-- Then iterate the hash table and return the one does not appear three times. 
+
+Approach 2: 
+-- The core idea is to use an int array arr with size 32. arr[i] counts the number of bits are set at index i 
+  among all the numbers. 
+-- Set bits at index i's where arr[i] is not multiple of 3 would give the result. 
+-- It makes sense because if arr[i] is not multiple of 3, it must be the single number contribues to that index.  
+  Thus, we can reconstruct the single number from those i's.  
+  
+Approach 3: 
+-- Idea is similar to approach 2. 
+-- Three int variables: one, two, and three. 
+  one: bit vector for bits appear once. 
+  two: bit vector for bits appear twice. 
+  three: bit vector for bits appear three times. 
+-- If a bit is set in both one and two, we need to set bit in three and reset that bit in one and two. 
+-- Return one as final result. 
+
+two |= one & A[i];  // Update two
+one = one ^ A[i];   // Update one 
+three = one & two;  // Update three 
+one &= ~three;      // Reset one 
+two &= ~three;      // Reset two 

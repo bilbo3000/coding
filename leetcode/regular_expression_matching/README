@@ -1,0 +1,12 @@
+Lesson: 
+-- Core idea from context-free grammar of *
+a* is same as: 
+S--> aS | epsilon; 
+-- Thus, every time we see something like a*, we have two options: 
+    1) Skip the whole thing (choose epsilon) and recursive on the rest. 
+    isMatch(s, p) --> isMatch(s, p + 2), where s is not consumed. 
+    2) Match first letter in s (same or first letter in s is not \0 and p is .)
+    isMatch(s, p) --> isMatch(s + 1, p), where p is not advanced, so that 
+    next iteration p still have two options. 
+-- If we don't see * at curent position, just do simple comparison and move on
+    both s and p if match: isMatch(s, p) --> isMatch(s + 1, p + 1); 

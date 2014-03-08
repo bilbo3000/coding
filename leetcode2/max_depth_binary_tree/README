@@ -1,0 +1,5 @@
+Find the max depth of a binary tree. 
+
+-- Recursion. 
+-- Base case is when current node == null, simply return 0. 
+-- Otherwise, return the max of the return values of left and right recursive calls plus one. 

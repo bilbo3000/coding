@@ -1,0 +1,20 @@
+9/3/2013
+
+BFS and DFS implementation. 
+
+Fields: 
+	-- Graph
+	-- bool isVisited[MAX]
+	
+Operations: 
+	-- Insert
+	-- BFS
+	-- DFS
+
+Lesson learned: 
+	-- In the constructor, make sure to class the boolean array as well 
+	-- During insert, make sure not to insert node that already exist. Also, be cautious about access NULL object issue. 
+	-- In BFS and DFS, use a separate boolean array to keep track of whether a node has been visited. DO NOT add another field in the node struct. 
+	-- In BFS, use integer stack if node values are integer, no need to push actual node. 
+	-- In BFS, only push unvisited node. 
+	-- In DFS, we have DFS() and dfs(); 

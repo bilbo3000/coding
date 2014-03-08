@@ -1,0 +1,3 @@
+Lesson: 
+-- Recursion. 
+-- If the values for the current nodes are equal, recursively process left nodes and right nodes for both tree and return their && result. 

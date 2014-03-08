@@ -1,0 +1,3 @@
+Lesson: 
+-- Binary search; 
+-- When working with binary search, pass both the left index (l) and the right index (r) to each recursive call. Also make sure checking condition where l <= r.-- When find the target, start to expand to left and right to find the index of elements that are right before the first instance of the target and right after the last instance of the target. 

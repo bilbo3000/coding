@@ -1,0 +1,3 @@
+Lesson: 
+-- Use a hash table to map values to their index. 
+-- For numbers[i], check if target - numbers[i] is in the table. If yes, return the index. 

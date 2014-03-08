@@ -1,0 +1,3 @@
+Lesson learned: 
+-- Use a map to keep track of the node that has been visited (key) and their parent (value). 
+-- Once it finds a node that has been visited, then it means it finds a cycle. return that node would be the start of the cycle.

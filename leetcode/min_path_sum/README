@@ -1,0 +1,3 @@
+Lesson learned: 
+-- Dynamic programming. 
+-- T[i][j]: The short path go get to grid[i][j] (plus the current value).

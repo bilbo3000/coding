@@ -1,0 +1,20 @@
+8/29/2013
+
+Graph implementation 
+
+Fields: 
+-- Array of Node pointers
+ 
+Operations: 
+	- DFS (recursion)
+	- BFS (Queue)
+	- Clear graph
+	- Insert
+	- Print graph
+
+Lesson learned: 
+	- The index of the pointer array represents the value of the nodes. 
+	- When working with linked list, make sure to explicitly consider insert into empty list. 
+	- When inserting (x, y), make sure also insert (y, x). 
+	- When inserting something that already exist, do not insert again. 
+	- If using Graph g; then use g.PrintGraph(); If using Graph * graph = new Graph(); then use g->PrintGraph(); 

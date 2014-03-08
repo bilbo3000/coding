@@ -1,0 +1,4 @@
+Search an element in a rotated array. 
+
+-- Find the index of the first element that is greater than the one after it. (Initialized to 0)
+-- If A[0] < target, do binary search on [0..index], otherwise, do binary search on [index + 1..len - 1]

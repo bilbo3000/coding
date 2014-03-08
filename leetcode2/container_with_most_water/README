@@ -1,0 +1,5 @@
+Find the max area what can be formed by two edges in given array. 
+
+-- Two pointers. 
+-- Advance the shorter edge each iteration because the width decreases each time, only advance the shorter edge may 
+  result a larger area. 

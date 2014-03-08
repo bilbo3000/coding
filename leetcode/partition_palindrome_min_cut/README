@@ -1,0 +1,6 @@
+Lesson: 
+-- Dynamic programming. 
+-- int T[size + 1]; T[i] the minimum number of palindromes in the substrings ending with ith element. 
+-- T[0] is 0 since there is no palindrome ending with 0th element. 
+-- T should be initialize to the maximum values, T[1] = 1, T[2] = 2, etc...
+-- return T[size] - 1; --> number of splits == number of palindomes - 1. 

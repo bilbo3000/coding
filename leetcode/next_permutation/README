@@ -1,0 +1,4 @@
+Lesson: 
+-- The key idea is loop backward to find the first dropping point. Swap it with the last element that is greater than it in the rest of the array behind it (must exist because of first dropping point). Then, reverse the rest of array behind dropping point to make it minimum (change from decreasing order to increasing order). 
+-- reverse() function is in <algorithm> package. reverse(vec.begin(), vec.end()) will reverse the entire vector. 
+-- If the entire vector is decreasing order, just reverse it. 

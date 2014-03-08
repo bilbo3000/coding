@@ -1,0 +1,30 @@
+Generate all ways to multiply smaller integers that equal the original number, 
+without repeating sets of factors. 
+
+Dongpu Jin
+2/8/2014
+
+How to compile? 
+-- Move to the same directory as PrintFactors.java
+-- $ javac PrintFactors.java
+
+How to run? 
+-- Move to the same directory as PrintFactors.class
+-- $ java -cp . PrintFactors 12
+
+-- The output should look like: 
+12*1
+6*2
+4*3
+3*2*2
+
+How to measure timing? 
+-- Move to the same directory as PrintFactors.class
+-- $ time java -cp . PrintFactors 12 | wc -l
+
+-- The output should look like: 
+4
+
+real    0m0.110s
+user    0m0.000s
+sys     0m0.064s

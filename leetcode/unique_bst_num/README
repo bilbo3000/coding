@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Using recursive. 
+-- Loop from each number from 0 to n - 1 and use each one as root. 
+-- For the current root, recursively get the left (i) and right subtree (n - 1 - i).
+-- The result for the current root is the left number times the right number. 

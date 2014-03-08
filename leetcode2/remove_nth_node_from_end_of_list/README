@@ -1,0 +1,5 @@
+Remove the nth node from the end. 
+
+-- Recursion to walk back the list. 
+-- Increment the counter after recursion return. 
+-- Remove the node if counter equals to n. 

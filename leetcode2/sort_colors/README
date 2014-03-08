@@ -1,0 +1,7 @@
+Sort three colors into ordered continuous regions. 
+
+-- Two pointers: l points to the last 0 (initialize to -1); r points to the first 2 (initialize to len); 
+-- Walk the input from index 0 to r - 1. 
+-- If A[i] is 0, advance l and swap A[i] with A[l]. 
+-- If A[i] is 2, decrement r and swap A[i] with A[r]. Note that i needs to stay at current location to re-exam the 
+  new comming element (handle it if 0 or 2). 

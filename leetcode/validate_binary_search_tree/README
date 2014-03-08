@@ -1,0 +1,16 @@
+Lesson: 
+-- A valid binary search tree is that for every node, all the nodes in the left subtree are less than current node and all the nodes in right subtree are greater than the current node. 
+
+
+Brute force approach (easy to visualizel): 
+-- Recursively validate each node. 
+-- For each node, recursively validate all left subtree is less than current node and all right subtree is greater than current node. When done with current node, recursively process left child and right child. 
+-- When validate all subtrees, pass the value of current node to the recursive calls. 
+-- If current node is NULL, return false; 
+
+Tree in-order traversal approach: 
+-- In order traversal the tree, each node should be greater than the previous node. 
+-- Use a varible 'prev' to point to the previous element in the order of traversal. 
+-- Everytime update prev to next smallest element that is greater than the current element. 
+-- For each node, if after exploiting left exceed (prev should point to the largest element in the left subtree of current node), then compare current node with prev. If current node is greater than prev, update prev to current node and process right subtree. 
+-- The key idea is if left subtree cannot be further processed or it has been successfully processed, update prev to current node and process right subtree. Eventually, prev would end up at the largest element in that subtree. 

@@ -1,0 +1,6 @@
+Generate all possible IP addresses from given string. 
+
+-- Recursion. 
+-- 4 segments in total. 
+-- Each segment is between 0 and 255. 
+-- Each segment cannot start with 0 (except 0). 

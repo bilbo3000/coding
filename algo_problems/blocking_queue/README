@@ -1,0 +1,7 @@
+Lesson learned: 
+-- "front" always points to the first element of the queue and "back" always point to the last element of the queue. 
+-- Use "size" to check if queue if full or empty. DO NOT use the position of front and back to determine empty/full. 
+-- Remember to wrap around using %. 
+-- Use "synchronized" keywords to make it thread safe.
+-- Array in java are objects: int[] array = new int[100]; 
+-- Create objects in java: BlockingQueue q = new BlockingQueue(); Note the difference between cpp. 

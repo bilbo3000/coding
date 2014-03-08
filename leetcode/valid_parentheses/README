@@ -1,0 +1,6 @@
+Lesson: 
+-- Use stack. 
+-- If current char in the input string is a opening parenthesis, push onto stack. 
+-- If current char is a closing parenthesis, and it FORMS A PAIR with the top of the stack, pop the top of stack. 
+-- Otherwise return false; 
+-- After scanning for loop, return false if stack is not empty. 

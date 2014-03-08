@@ -1,0 +1,6 @@
+Lesson: 
+-- Recursion. 
+-- If k == 1, means select 1 out of n elements. So create a vector of vectors with 1 element in each vector. 
+-- If k > 1, recursively process the remaining part for each i from n to k --> select k - 1 element out of i - 1 elements where i could range from current n to current k. 
+-- For each recursive return result, insert current element into each return vector. 
+-- sort(vec.begin(), vec.end()) --> sort vector. 

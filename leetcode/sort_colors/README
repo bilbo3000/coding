@@ -1,0 +1,8 @@
+Lesson learned: 
+Approach 1: using counting sort. 
+Approach 2: using partition approach: 
+-- a points to the last 0 (initialize to -1); 
+-- b points to the last 1 (initialize to -1); 
+-- i loop through the list: 
+    1) if A[i] == 0: swap(A[a + 1], A[b + 1]) iff A[b + 1] == 2; then swap(A[a + 1], A[i])
+    2) if A[i] == 1: swap(A[b + 1], A[i]); 

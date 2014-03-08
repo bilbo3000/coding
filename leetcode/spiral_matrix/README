@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Recursion. 
+-- When moving right, can only move to right or down. Other recursive calls have the same idea. 
+-- During each recursive call, first place the current number, then mark this position as visited. Then recursion on the next proper position. 
+-- pow() is in <cmath> 

@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Use a vector and a stack. 
+-- Vector stores elements at current level as children. 
+-- Stack stores elements at previous level as parents (transfered from the vector). 
+-- vector .end() does not point to the last element. do v.erase(--v.end()) to remove the last element from the vector. 
+-- Cannot use [] to retrieve elements from stack. 

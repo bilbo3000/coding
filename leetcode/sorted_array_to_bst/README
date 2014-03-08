@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Recursion: since the array is sorted, build node off the mid node, then apply recursion on left half and right half. Return the current node to previous level. 
+-- Assign a segment of a vector to another vector: 
+vec.assign(vec2.begin() + 1, vec2.end() - 1);  // Copy over element except the first and the last element  

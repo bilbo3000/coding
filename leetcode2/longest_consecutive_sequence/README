@@ -1,0 +1,9 @@
+Find the length of the longest consecurive sequence for a given array. 
+
+-- Merge interval. 
+-- Only a NEW element can connect its left and right intervals. 
+-- Use a HashMap to map the length of interval start or end with that element. Note that we only care 
+  about the start and the end of an interval. The length for elements within an interval doesn't matter. 
+-- Merge the new element with the left interval (if exists) and update the HashMap, then merge the new left 
+  interval with the right interval (if exists), also update the table. 
+-- Maintain a global maximum variable. 

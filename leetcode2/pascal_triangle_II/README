@@ -1,0 +1,5 @@
+Generate a level of pascal triangle for the given level. 
+
+-- Use an ArrayList p to keep track of current level. 
+-- When update p, loop from right to left because update current element requires current element and previous element. 
+  We don't want to update previous element before updating current element. 

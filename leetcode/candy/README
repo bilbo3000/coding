@@ -1,0 +1,10 @@
+Lesson: 
+-- The core idea is that we just to need to satisfy the constraints "higher rating children get
+  more candies than neighbors" and "each child has at least one candy". 
+-- Initialize the vector of candies to all 1's. 
+-- First round, scan from left to right, if ratings[i] > ratings[i - 1], then make 
+  candy[i] = candy[i - 1] + 1 (which gives minimum increase). 
+-- Second round, scan from right to left, if ratings[i] > ratings[i + 1], but 
+  candy[i] <= candy[i + 1] (violates the constraint), we make candy[i] = candy[i + 1] + 1 (
+  minimum increase). 
+-- Use a variable to keep track of the sum while walking through the list of children. 

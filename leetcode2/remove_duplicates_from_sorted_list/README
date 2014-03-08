@@ -1,0 +1,3 @@
+Remove duplicates from sorted list. 
+
+-- Remove all elements that are the same as current element (they would be all in the same cluster since sorted array). 

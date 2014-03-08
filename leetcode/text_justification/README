@@ -1,0 +1,8 @@
+Lesson learned: 
+-- Scan through each word and decided if this word can fit into current line. 
+-- if fit --> insert into current line set, advance line length by 
+    1) wordLength when just fit; 
+    2) wordLength + 1 otherwise; 
+-- if not fit --> process current line, by calculating space number, space in between, and extra space. 
+-- If a line only contains a single word, filled the rest of space with empty space. 
+-- Don't forget to handle the last line. 

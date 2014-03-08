@@ -1,0 +1,33 @@
+8/29/2013 
+
+Linked List implementation. 
+
+Fields: 
+-- head 
+-- tail 
+
+Operations: 
+	- Print list
+	- Destroy the list 
+	- insert a node 
+	- delete a node 
+	- search a given item
+
+Lesson learned: 
+- insert: 
+	1) list is empty; 
+	2) Not empty, smaller than the first item, need to update head; 
+	3) Not empty, larger than all items, need to update tail; 
+	4) Not empty, somewhere in the middle; 
+
+- delete: 
+	1) list is empty; 
+	2) delete the first node, need to update head; 
+	3) delete somewhere in the middle; 
+	4) not empty, but not in the list; 
+
+- When destroy the list, don't forget to reset tail to NULL. 
+
+- Always provide destructor!!!
+
+- If delete last item, don't forget to update the tail pointer. 

@@ -1,0 +1,7 @@
+Rotate a list to the right k positions. 
+
+-- Maintain a global length of the list, when reach the end of list, update k = k % len to wrap around. 
+-- Recursively walk back the list and increment the global cnt. When cnt == k, start manipulation. 
+-- Let's say curr points to kth node, consider the case where: 
+  prev == null, then no need to rotate. 
+  tail == head, don't make tail.next = head, that would create cycle. 

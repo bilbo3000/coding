@@ -1,0 +1,14 @@
+Find the maximum number of points that lay on a line. 
+
+-- The idea is to use each point as origin and calculate the max number of points lay on the same line as the current 
+  origin. Also maintain a global maximum. 
+-- Also add the number of points that are the same as the origin. 
+-- Use gcd to determine whether two slopes are the same. Let g = gcd(xdiff, ydiff). 
+-- g == 0 when both xdiff and ydiff are 0 --> current point is the same as the origin. 
+
+int gcd(int a, int b) {
+  if (a == 0) return b; 
+  if (b == 0) return a; 
+  return gcd(b, a % b); 
+}
+

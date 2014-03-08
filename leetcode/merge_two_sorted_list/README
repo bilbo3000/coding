@@ -1,0 +1,3 @@
+Lesson: 
+-- When finish the while loop and try to determine to append which list. Make sure to consider the case where head is NULL (means at least one of the list is empty initially, and the entire while loop is skipped).
+-- Make sure to have head and tail pointers. 

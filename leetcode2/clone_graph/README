@@ -1,0 +1,8 @@
+Clone an undirected graph. 
+
+-- Use a HashMap to map the origin node to new node. 
+-- Use a HashSet to keep track of the history of nodes that have already been processed. 
+-- DFS traverse the graph and process each node. 
+-- When process a node, first create the copy of the node itself (if has not been created). Then create copies of 
+  heighbors (if have not been created). After finish processing current node, put it into history set and move on to 
+  next node that has not been processed. 

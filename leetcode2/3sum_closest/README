@@ -1,0 +1,6 @@
+Find the a 3sum that is closest to the targer. 
+
+-- Sort the array. 
+-- For each element from 0 to len - 3: l moves right or r moves left until cross, depending on the value of sum compare 
+  to target.
+-- Maintain the result while looping the array. (Use Math.abs() when calculating diff). 

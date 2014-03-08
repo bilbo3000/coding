@@ -1,0 +1,10 @@
+Lesson: 
+-- If the total gas is greater than or equal to the total cost, it is definitely able to make a 
+  cycle. We only need to figure out where to start. 
+-- For the current starting index (s), we keep track of how many gas left in the tank. If at station 
+  i it becomes negative, it means it cannot make it from s to i + 1. Put another word, the segment
+  [s..i] consumes gas rather than produce gas, thus, we try i + 1 to be the next starting station 
+  and reset the tank. 
+-- By doing so, the last starting station would be the overall starting station. The core ideas is 
+  that the last segment must be able to produce at least the amount of gas as the amount consumed
+  by previous negative segments (because total >= 0!). 

@@ -1,0 +1,18 @@
+Lesson: 
+-- Use doubly linked list to represent the cache. 
+-- The head of the linked list would always be the MRU. 
+-- The tail of the linked list would always be the LRU.
+-- Use a map to map keys to each node (for quick look up). 
+-- When accessing an element: 
+    0) if doesn't exist, return -1. 
+    1) if it is the head --> do nothing; 
+    2) if it is the tail --> move to head and update head, tail. 
+    3) if it is somewhere in the middle --> move to head and update head. 
+-- When setting an element: 
+    1) if doesn't exist, create new node and insert at the front of the list, 
+    update the map. 
+    ATTENTION: if exceeds the limit, needs to delete tail from the list. DO NOT
+    forget to delete the entry in the map (each node would have a key field 
+    and a value field). 
+    2) if already exist, set new value, move to head, and update head. (update
+    tail if it is tail). 

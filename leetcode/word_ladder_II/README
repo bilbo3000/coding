@@ -1,0 +1,10 @@
+Lesson: 
+-- The basic idea is to do BFS and use a hash table (unordered_map<string, vector<string> >) to keep track of the parent 
+  of each word in the BFS tree. 
+-- To same space, we toggle between two unordered_set as current level and next level. Do not copy, put two sets in 
+  a vector of size two and toggle index. (Using unordered_set because we do not need to have duplicated elements on the 
+  next level). 
+-- Make sure to remove all the words at the current level before moving forward to avoid creating cycles. 
+-- After finding words adjacent to end, we need to set a flag as well as update the parents of end. 
+-- If flag is set, we know that solutions are found. Then we can reconstruct the paths using the hash table starting from 
+  end. 

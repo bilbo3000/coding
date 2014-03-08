@@ -1,0 +1,8 @@
+Solve a suduku. 
+
+-- Recursion. 
+-- Each recursive call, find the first empty cell, then try each digit from 1 to 9. For each digit, eheck if it is valid, 
+  then recursively process the new board. 
+-- Use a boolean flag to decide whether to stop. (when no more empty cell, set the flag)
+-- Don't forget to reset the cell to '.' before recursion call return (only when flag is not set, otherwise, it would 
+  clear out the solution)

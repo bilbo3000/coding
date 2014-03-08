@@ -1,0 +1,12 @@
+Lesson: 
+-- Use a hash table to map each node in the original list to the corresponding
+  node in the new list. 
+-- For each node in the original list; 
+  1) if it does not exist in the map (means the corresponding new node has not 
+  been created yet), create corresponding new node and append to the end of new 
+  list. And update the mapping. 
+  2) if it exists in the map, no need to create the new node in the new list. 
+  3) if random pointer is not NULL, check the mapping, if random target already 
+  exists, just update the random pointer for the node in the new list, otherwise, 
+  create the random pointer target node and update the random pointer and also the 
+  table. 

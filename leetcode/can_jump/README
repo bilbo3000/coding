@@ -1,0 +1,4 @@
+Lesson: 
+-- Dynamic programming. 
+-- Boolean array T. T[i] keeps track of whether it can jump from 0 to current location. 
+-- T[i] = T[j] && (A[j] >= (i - j)) for each j before i. 

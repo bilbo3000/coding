@@ -1,0 +1,5 @@
+Find insert position of target element in a sorted array. 
+
+-- Binary search. 
+-- If find, return index. Otherwise, return r + 1 because eventually l and r would point to the same element. No 
+  matter current element is less than target or greater than target, r + 1 would work. 

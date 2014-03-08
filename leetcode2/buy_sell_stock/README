@@ -1,0 +1,5 @@
+Find max profit when only allow one transaction. 
+
+-- Maintain a global min. 
+-- If current element less than min, update min. Otherwise, calculate the profit with current min and update result 
+  if new profit is larger. 

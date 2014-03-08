@@ -1,0 +1,38 @@
+9/2/2013
+
+Sorting algorithms. 
+
+Fields: 
+	-- int arr[MAX]; 
+	-- int size; 
+
+Operations: 
+	-- Mergesort (sort array and linked list)
+	-- Quicksort (linear scan approach, two pointer approach is buggy)
+	-- Heapsort
+	-- Selection sort 
+	-- Insertion sort 
+-- Bucket sort 
+	-- Radix sort 
+	-- Counting sort 
+	-- PrintArray
+
+Lesson learned: 
+
+Mergesort: 
+	-- Array is passed by reference void Test(int arr[]), what actually passed is int *
+	-- Be careful about floor() and ceil() function. If doing ceil(5/2), the result would be 2 rather than 3!!!
+	-- When loop through linked list, make sure to update curr pointer. 
+	-- Make sure run mergesort only when size > 1
+
+Quicksort: 
+	-- each local function call should realize the global index, since its in place. 
+	-- Linear scan approach will use the last element as pivot
+	-- Do not use the two pointer approach, it is buggy. 
+
+Heapsort: 
+	-- When doing heapify, make sure to use boolean “isHeap” to stop the loop. 
+
+Insertion sort: 
+	-- Use actual swap is safer 
+	-- If use the save approach, make sure to compare with the saved value. 

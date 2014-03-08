@@ -1,0 +1,6 @@
+Lesson: 
+-- Two pointers start from two side. 
+-- Calculate current area: min(height[i], height[j]) * (j - i), update max area is greater than it. 
+-- Advanced the shorter side. 
+-- The key idea is that iff advance the shorter side gives the opportunity to increase the area. 
+  Advance the longer side would only reduce the area!!!

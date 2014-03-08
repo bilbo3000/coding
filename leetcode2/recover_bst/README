@@ -1,0 +1,8 @@
+Reconstruct the bst by swapping back two elements. 
+
+Linear space approach: 
+-- Store inorder traversal of the tree. 
+-- Scan from left to right to find the left misplaced element. (first element that is greater than its neighbors)
+-- Scan from right to left to find the right misplaced element. (first element that is less than its neighbors)
+-- Cannot do it in one loop because there might be multiple numbers satisfy the condition, but we only want the 
+  left most and right most ones. 

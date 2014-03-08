@@ -1,0 +1,5 @@
+Generate all distinct permutations. 
+
+-- Recursion. 
+-- Insert element pointed by 'index' to all possible positions of return values. 
+-- Use a HashSet to store all the histories. 

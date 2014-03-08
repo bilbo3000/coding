@@ -1,0 +1,5 @@
+Calculate how much rain water can be trapped. 
+
+-- Find how much water can exist at each position. 
+-- Maintain a leftMax (update accordingly) and find rightMax each time. result += Math.min(leftMax, rightMax) - A[i] if 
+  greater than 0. 

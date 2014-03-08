@@ -1,0 +1,20 @@
+Lesson: 
+-- Convert the problem into "finding the kth smallest element from A and B". 
+-- Let k = (m + n) / 2, if m + n is odd, we need to find the kth smallest 
+    element. If m + n is even, we need to find the average of the kth and k+1th
+    smallest element. 
+-- The idea is that we find the k/2 th element in A and k/2 th element in B. 
+    There are several scenarios: 
+    1) Two elements are the same, that element is the kth smallest, return it. 
+    2) A[i] < B[j] --> there is no way for the kth smallest element in A[:i], 
+    (because A[:i], B[:j] together have k elements), thus, we can safely 
+    discard elements in A[:i]. 
+    Then we move on to find k - i th element in A[i + 1:] and B. 
+    3) A[i] > B[j] --> there is no way for the kth smallest element in B[:j], 
+    similar reason, we can discard elements in B[:j]. 
+    Then we move to find k - j th element in A and B[j + 1:]. 
+-- Corner case: 
+    1) When the smaller array is empty, return the k th element in the other 
+    array. 
+    2) When k == 0, just return the smaller one of the first element of both 
+    array. 

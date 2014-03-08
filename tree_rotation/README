@@ -1,0 +1,11 @@
+9/7/2013
+
+Tree rotation. 
+
+Lesson learned: 
+	-- Update both direction. Update forward and then update parent. 
+	-- Always check if node exist before updating parent, otherwise null reference. 
+	-- When promot a node, need to check if it is: 
+	1) root
+	2) left child
+	3) right child 

@@ -1,0 +1,8 @@
+Lesson: 
+-- Do inorder tree traversal of the bst. 
+-- Find the two elements that have been swapped: 
+  1) Element a[i] where (i == 0 && a[i] > a[i + 1) || (i < n - 1 && a[i] > a[i + 1] && a[i - 1] < a[i + 1])
+  2) Element a[j] where (j == n - 1 && a[j] < a[j - 1]) || (j > 0 && a[j] < a[j - 1] && a[j - 1] < a[j = 1])
+-- The key idea is to find the element that is larger than the element follow it and the one 
+  before it is smaller than the one after it. Also find the element that is smaller than the element
+  before it and the one before it is smaller than the one after it. 

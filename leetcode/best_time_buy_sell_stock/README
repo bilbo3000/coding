@@ -1,0 +1,15 @@
+Lesson: 
+Approach 1: 
+-- O(N^2)
+-- For each price, check the delta with the min prices before. That is the profit if selling at 
+  that day. Store the profit for each day. 
+-- Find the max amoung all the profits. 
+
+Approach 2: 
+-- O(N)
+-- The core idea is to scan through the price array. 
+-- If current price is less than the current min 
+  price, this price cannot be a sell. We make it to be the new min price. 
+-- Otherwise, we find the delta between current price with the current min. If delta is greater than 
+  current max, we update the max. 
+-- Key: each node needs to find the delta with the current min. We need the largest one. 

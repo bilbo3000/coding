@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Divide and conquer: x^n == x^(n/2) * x^(n/2) * x^(n%2). 
+-- Use recursion to solve smaller version of the problem. 
+-- Consider the situitions where exponential is > 0, <0, or == 0. 
+-- Make sure to convert exponential to long long to avoid overflow. 

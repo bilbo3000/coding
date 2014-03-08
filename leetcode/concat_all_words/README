@@ -1,0 +1,14 @@
+Lesson: 
+-- Use a table "needToFind" to specify the number of each string we need to find. 
+-- Walk i from 0 through S.size() - cnt * len. 
+-- For each i, starts a j walks from i to i + cnt * len (increase by len each 
+    iteration) and use a table 
+    "hasFound" to keep track of how many elements (in needToFind has already 
+    been found).
+-- If we found each substring in the list exactly once (done by a counter). 
+    Insert i to result. 
+-- If any of the following conditions is met, try next i: 
+    1) substring starts at j with length len does not exist in needToFind. 
+    2) Found something more times than what it should appear (by comparing 
+    hasFound value with needToFind value). 
+

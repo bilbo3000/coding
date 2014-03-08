@@ -1,0 +1,28 @@
+/*
+Given a linked list of integers, write a function to determine whether the given list has a loop or cycle anywhere in the list. The integer values may not be relied upon to be distinct.
+ 
+You may use the JDK or the standard template library. The solution will be evaluated on correctness, runtime complexity (big-O), and adherence to coding best practices. A complete answer will include the following:
+ 
+Document your assumptions
+Explain your approach and how you intend to solve the problem
+Provide code comments where applicable
+Explain the big-O run time complexity of your solution. Justify your answer.
+Identify any additional data structures you used and justify why you used them.
+Only provide your best answer to each part of the question.
+*/
+/* Assumptions 
+   No extraordinary assumptions made.
+*/
+/* Describe your approach here. 
+   This is an approach that accomplishes this list "cycle detection" with two pointers.
+   With two pointers, we are able to check if there is a loop by having these pointers
+   traverse the list at different speeds. The first pointer will move more places in
+   the list than the second pointer.
+*/
+ 
+/* Enter your Big O Analysis here. 
+   This algorithm will grow linearly in Big O as the list increases in size.
+   This is O(n) because the first pointer will iterate through the list for each second pointer.
+*/
+ 
+/* Enter your code here. */

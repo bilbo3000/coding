@@ -1,0 +1,4 @@
+Lesson: 
+-- The xor of same number would become 0. 
+-- Any number xor with 0 would just be itself. 
+-- Walk through the array and keep applying xor. The number left would be the only single number. 

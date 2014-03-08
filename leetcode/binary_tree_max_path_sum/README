@@ -1,0 +1,13 @@
+Lesson: 
+-- Tree --> recursion. 
+-- Let the recursive function return the max single path sum that rooted at current root. 
+  It could go in the left subtree. 
+  It could go in the right subtree.
+  It could also just be the root itself (in the case where both left and right path sums are 
+  negative). 
+-- We need to return the maximum of above three. 
+-- It must go through the current root in order to make up a path. 
+-- In the case where the maximum path sum completely lay in some substree, we need to have a 
+  global variable to keep track of the overall maximum path sum. For this case, we need to 
+  consider an additional case where the path lay in both left and right subtree and go 
+  across the current root. 

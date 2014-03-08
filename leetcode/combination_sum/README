@@ -1,0 +1,7 @@
+Lesson: 
+-- Find all combinations --> DFS. 
+-- Carry current combination and a reference to result. 
+-- At each stage, loop through candiates from current index to the end --> to avoid different form but duplicates combinations. 
+-- In order to make each combination non-decreasing order, sort the candidates ahead of time: sort(candidates.begin(), candidates.end());
+-- Once recursive call returns, don't forget to pop_back() the previously insert element. 
+-- Carry a reference to history set to keep track of the history. Discard duplicate elements if it is found in history

@@ -1,0 +1,3 @@
+Remove duplicates from sorted array in place. 
+
+-- n^2 approach: copy all elements one slot to the left if current element is the same as the one after it. 

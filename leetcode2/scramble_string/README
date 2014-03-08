@@ -1,0 +1,7 @@
+Determine if two strings are "scramble". 
+
+-- Recursion fail large tests. 
+-- Dynamic programming. 
+-- T[i][j][k]: whether substring in s1 starts with index i and substring in s2 starts with index j with length k is 
+  scramble. 
+-- Build the table bottom up and return T[0][0][len] as the result. 

@@ -1,0 +1,3 @@
+Lesson: 
+-- Compute the min path for each element at current level, which is the sum of current value plus the min of the two adjacent elements on the next level. 
+-- Bottom up fashion. 

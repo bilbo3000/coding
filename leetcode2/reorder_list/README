@@ -1,0 +1,7 @@
+Reorder list: 1-2-3-4-5 ==> 1-5-2-4-3
+
+-- Break the list into two halves (1-2-3 and 4-5). Using the fast and slow pointers. 
+-- Reverse the second half. 4-5 ==> 5-4
+-- Merge two lists by interleaving two lists: 1-4-2-5-3.
+
+-- The recursion walking backwards approach exceeds the time limit. 

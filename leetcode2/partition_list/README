@@ -1,0 +1,6 @@
+Partition a list to move elements that are smaller than x before elements that are greater than while retain relative order. 
+
+-- Similar to quicksort partition. 
+-- last points to last element that is smaller than x. Consider when tail == null.  
+-- prev, curr traverse the list. Consider when prev == null. 
+-- When prev == last, no need to move. Just need to updates pointers. 

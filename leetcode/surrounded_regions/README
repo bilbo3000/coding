@@ -1,0 +1,6 @@
+Lesson: 
+-- The core idea is to check borders. For each 'O' that is on the border, run DFS to mark all 'O'
+  that are connected to this 'O'. These 'O' should not be captures. 
+-- Note that if a 'O' has been marked, we do not need to continue DFS from that cell thereafter. 
+-- Then, loop through the board to capture all 'O' that are not marked (means they are not 
+  connected to borders). 

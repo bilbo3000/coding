@@ -1,0 +1,5 @@
+Determine if a binary tree is balanced (height diff of two subtrees for every node is no more than 1). 
+
+-- Recursion. 
+-- Use height function to get the height of left and right subtree. If diff more than 1, return false. 
+-- Otherwise, recursion on left and right subtree and return && of the return results. 

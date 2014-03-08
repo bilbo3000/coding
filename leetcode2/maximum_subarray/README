@@ -1,0 +1,7 @@
+Find the max sum of contiguous subarray. 
+
+-- Dynamic programming (optimized version). 
+-- Local maxx: max sum of array at previous element. 
+  For current element, maxx = max(A[curr], A[curr] + maxx) --> merge current element to previous subarray or start a 
+  new subarray. 
+-- Global max = max(max, maxx); 

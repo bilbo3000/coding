@@ -1,0 +1,20 @@
+Lesson: 
+-- Clever use of DP. 
+-- The core idea is to maintain "hang-lines" and to see how far each hang-line
+    can push to both left and right. From that information, we can calculate 
+    each area and thus obtain the maximal area. 
+-- H[j]: the length of hang-line ending with the element in the jth column at 
+    current row. 
+-- L[j]: the index of first valid element the current element at jth column 
+    can push to the left. 
+-- R[j]: the index of first invalid element the current element at jth column 
+    can push to the right. 
+-- Thus, for current element matrix[i][j]: 
+    1) calculate L[j]
+    2) calculate R[j] and get the area. 
+-- Note that when calculate L[j] move from left to right because we need to 
+    use a variable to keep track of the first valid element to the left 
+    in the stripe. 
+    When calculate R[j], we move from right to left because we need to use 
+    a variable to keep track of the first invalid element to the right in 
+    the stripe. 

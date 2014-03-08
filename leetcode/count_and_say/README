@@ -1,0 +1,6 @@
+Lesson: 
+-- The basic idea is to count the number of consecutive digits. 
+-- Whenever the current char is different from the previous one, it indicates the start of a new segment. Then compute output and reset the counter. 
+-- Make sure to take care of the last char. (Checking current char with next char seems to be better). 
+-- Append char to string: s + 'a'
+-- Convert integer to char: (char)(i + '0')

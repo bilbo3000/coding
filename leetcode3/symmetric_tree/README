@@ -1,0 +1,3 @@
+Determine if a tree is symmetric. 
+-- Recursion. 
+-- For current pair of node (a, b), recursion on helper(a.left, b.right) && helper(a.right, b.left); 

@@ -1,0 +1,8 @@
+Higher rating kids have more candies than neighbors. Find minimum assignment. 
+
+-- Two passes. 
+-- First pass from left to right. If current rating is greater than previous rating, set current candy to be previous 
+  candy + 1. This pass guarentees that each high rating kid has more candies than previous heighbor by minimum amount. 
+-- Second pass from right to left. If current rating is greater than behind rating while current dandy is not more than 
+  behind candy, set current candy to behind candy + 1. This pass guarentees that each high rating kid also has more 
+  candies than behind neighbor. 

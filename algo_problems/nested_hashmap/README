@@ -1,0 +1,7 @@
+Lesson learned: 
+-- Recursion. 
+-- HashMap is in java.util.HashMap; 
+-- HashMap hashMap = new HashMap(); 
+    hashMap.put("key", "value"); 
+    hashMap.get("key", "value");
+    Set keySet = hashMap.keySet();

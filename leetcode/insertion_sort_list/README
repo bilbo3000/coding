@@ -1,0 +1,6 @@
+Lesson: 
+-- Walk through the list, for each element, try to find the first element that
+	is greater or equal to the current element, then insert current element
+	before that element. 
+-- Need to be careful insert at the beginning of the list. (udpate the head). 
+

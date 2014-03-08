@@ -1,0 +1,6 @@
+Find the max length of substring that does not contain repeating characters. 
+
+-- Maintain a window that always satisfy the constraint by using a HashTable to keep track of count of each letter 
+  in the window. 
+-- Push right of the window as far as possible until violates the constraint. Then move left until constraint is restored.
+-- Update the max throughout the process accordingly. 

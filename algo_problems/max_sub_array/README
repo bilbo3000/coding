@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Do not use DP. 
+-- Divide and conquer seems to advanced. 
+-- Use the n^2 approach, where compute the length of each (i, j) pair, and keep track of the max length and coorsponding starting and ending index. 
+-- Note that the length of (i, j) is (i, j - 1) + a[j], thus we can reuse previous result rather than loop through from i to j (This would result n^3).
+-- i is from 0 to n and j is from i to n --> this will take into account single element. 

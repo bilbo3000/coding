@@ -1,0 +1,9 @@
+9/8/2013
+
+Longest sub-sequence problem 
+
+Lesson learned: 
+-- Dynamic programming. 
+-- Distinguish sub-sequence and substring apart. 
+-- T[i][j] length of the longest subsequence of a[0..i] and b[0..j] 
+-- D[i][j] points to previous element that leads to T[i][j] (Table D keeps track of the path, such that we can reconstruct the longest sub sequence). 

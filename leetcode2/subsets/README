@@ -1,0 +1,4 @@
+Generate all subsets of a given set. 
+
+-- Recursivelly process the elements after index. 
+-- Insert element at index to all sets from the recursive returns. 

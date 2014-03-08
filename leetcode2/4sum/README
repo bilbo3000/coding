@@ -1,0 +1,4 @@
+Find all 4sums that equals to target. 
+
+-- For each element as first element, find three sum in the subsequent elements. 
+-- When update index, skip duplicates. 

@@ -1,0 +1,4 @@
+Determine whether given parentheses sequence is valid. 
+
+-- Use stack to push/pop parentheses pairs. 
+-- Return true at the end only if the stack becomes empty. 

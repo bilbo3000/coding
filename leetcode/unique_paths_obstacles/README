@@ -1,0 +1,5 @@
+Lesson: 
+-- DP. 
+-- The possible way of getting to current point is the sum of possible way to get to the left point (if not obstacle) and possible ways to get to the above point (if not obstacle). 
+-- Make sure to initialize the entire table to 0 ahead of time. 
+-- First row and first column is initialized until the first point of obstacle. 

@@ -1,0 +1,7 @@
+9/10/2013 
+
+Remove duplicated character from a string. 
+
+Lesson learned: 
+  -- Do not use char *. Bucase char * s = "abcd" cannot be modified after s is created. 
+  -- s.erase(i, 1);  remove the character at position i. Make sure don't update i after erase.  

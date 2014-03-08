@@ -1,0 +1,5 @@
+Lesson: 
+-- Recursion: restoreHelper(string s, string curr, int cnt, int sec, vector<string> &result); 
+-- The current section must between 0 and 255, use atoi to check (stdlib.h). Also note that eact section cannot start with 0 exception 0 itself. 
+-- At each level, try 1, 2, 3 digits. 
+-- Basis: if number of digits have been processed more than total length or number of digits is not enough, return. If section is the last one and number of digits equal to the string length, push to result and return. 

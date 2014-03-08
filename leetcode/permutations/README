@@ -1,0 +1,4 @@
+Lesson: 
+-- Recursive. Insert current to all possible locations of the return of recursive function call. 
+-- insert(vec.begin() + i, val); // Insert in front of the current element with index i.  
+-- Do not directly insert into recursive return results. It would mess up with length. Use vector<int> temp = vec;  // This is deep copy

@@ -1,0 +1,8 @@
+Find the largest rectangle in a histogram represented as a list of numbers. 
+
+-- Use stack to store indexs. 
+-- Insert 0 at the beginning and the end. 
+-- For each element, if it is >= the top of stack, push the index. 
+-- Otherwise, clear out all the elements that are greater than current element. Meanwhile, calculated the right area (look
+  at current index) and left area (look at top of stack) of the cleared out element. 
+-- Update max accordingly. 

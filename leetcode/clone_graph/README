@@ -1,0 +1,10 @@
+Lesson: 
+-- Use a hash table to map old nodes to new nodes. 
+-- Use a history set to keep track of nodes that has already been visited. (A node is said to be visited 
+  means that itself and its children are cloned). 
+-- Use recursion to run DFS to clone each node. 
+-- For each node, clone current node. If it does not exist in the mapping, create corresponding new node
+  and update the mapping. Then clone the children list. If a child does not exist in the mapping, create 
+  corresponding child node and update the mapping. 
+-- Once finish processing a node, update history set. Do not process a node that is in the history set. 
+-- Then, recursively process each child node in the children list. 

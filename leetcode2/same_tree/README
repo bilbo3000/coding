@@ -1,0 +1,5 @@
+Check if two binary tree are the same. 
+
+-- Simple recursion. 
+-- If either current structures are different and values are different, return false; 
+-- Otherwise, return the && of left child comparisons and right child comparisons. 

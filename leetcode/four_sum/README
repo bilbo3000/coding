@@ -1,0 +1,11 @@
+Lesson: 
+-- Four sum can be reduce to three sum problem. 
+-- For each element in the vector, if use that element as the first element in the quadruplet, then we need to find a three sum in the remaining vector. 
+-- The core idea of three sum is the following: 
+    0) Sort the vector; 
+    1) Ptr i walk through the vector (from 0 to n - 2). 
+    2) For that i, Ptr j walk backwards starts from n - 1. 
+    3) And Ptr k starts from i + 1 and move forward. 
+    4) When num[i] + num[k] + num[j] == target, we found one! (make sure not duplicates). Need to advance both k and j in order to look for another tripulet start with i: k++, j--
+    5) When num[i] + num[k] + num[j] < target, k++ (we need to look for a larger element). 
+    6) When num[i] + num[k] + num[j] > target, j-- (we need to look for a smaller element). 

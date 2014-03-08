@@ -1,0 +1,5 @@
+Lesson: 
+-- Same idea as three sum. 
+-- Sort the vector and maintain three pointers i, j, k. 
+-- One extra thing need to keep track of is the min diff and the sum that gives min diff. 
+-- min diff should be initialized as INT_MAX, which comes from <climits>. 

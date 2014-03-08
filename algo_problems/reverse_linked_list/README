@@ -1,0 +1,8 @@
+9/7/2013
+
+Reverse a linked list 
+
+Lesson learned: 
+-- Reverse the next ptr for each node
+-- Remember to update head, and tail
+-- Store next ptr before reverse, so that you can move forward 

@@ -1,0 +1,19 @@
+Lesson: 
+-- Clever use of stack. 
+-- Use stack to keep track of the index of unmatched (. 
+-- The last unpaired ) or ( would be used as seperator. We can get index of last unpaired ( from 
+  stack, but we need a variable to keep track of the index of last unpaired ). 
+-- Walk through the string, when sees (, just push onto stack. 
+-- When see a ), there could be two scenarios: 
+  1) stack is empty: 
+    Need to update the index of last unpaired ), which could be a separator. 
+  2) stack is not empty:
+    Match with top of stack. Then update max length: 
+    2.1) If after matching, the stack become empty, we must use the index of last unpaired ) 
+      as separator to calculate the new length. Then compare it with current maximum. 
+    2.2) If after matching, the stack is not empty, we use the index of first unpaired (yet) ( 
+      as separator to calculate the new length. Then compare it with current maximum. 
+      
+-- The core idea is that a continuous block of valid parentheses would not leave footprint
+  on the stack. It length would start from the separator immediately before it (could be either 
+  the last unpaied ) or the last unpaired (yet) ) ). 

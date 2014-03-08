@@ -1,0 +1,31 @@
+8/30/2013
+
+Binary Search Tree implementation. 
+
+Fields: 
+-- root
+
+Operations: 
+-- Traverse (pre-order, in-order, post-order and their non-recursive version)
+-- Insert 
+-- Search (recursive version, iterative version)
+-- Delete
+-- Find height
+-- Print level by level 
+
+Lesson learned: 
+-- Node contains pointers left, right, parent. 
+
+-- For insert, new item always inserted as leaves. Two pointers floating down to find the right position. Make sure to consider insert into empty tree. 
+
+-- Iterative pre-order, in the while loop, push right child onto stack before pushing the left child. Also, DO NOT PUSH NULL onto the stack. 
+
+-- Delete: 
+	-- If the left or right of the node to be deleted is NULL, replace the node with left or right. 
+	-- If both left and right are not NULL, replace the node with the smallest element in its right subtree. That element right promote to its position. (This makes sense because if a node is deleted, we want to have the smallest element that is bigger than it to be the replacement).  
+
+-- When transplant u with v, don’t forget to consider the case where u is the root. Don’t forget to update both directions. Note that transplant does not modify the target node (u). 
+
+-- The pop method of stack STL in C++ does not return the element popped. Need to combine top() and pop(). 
+
+-- Print level by level, enqueue a newline if there was a newline immediately prior to it. 

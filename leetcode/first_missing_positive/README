@@ -1,0 +1,10 @@
+Lesson learned: 
+-- The idea is put positive number n to its correct position (at index n - 1). 
+-- When looping through elements, must satisfy four conditions: 
+    1) Must be positive (A[i] > 0); 
+    2) Must within range (A[i] - 1 < n); 
+    3) Does not at right position (i != A[i] - 1); 
+    4) Do not swap same element (A[A[i] - 1] != A[i]), otherwise, it will just keep swapping!!!
+
+-- Use while statement to loop through array. DO NOT forget to update counter each iteration. 
+-- After each swap, make the counter still point to the current element by decrement counter. Because we want to examine this new element. 

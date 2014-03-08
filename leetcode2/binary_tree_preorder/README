@@ -1,0 +1,7 @@
+Binary tree preorder traversal. 
+
+-- Use a stack to store curr nodes (such that we can come back to this point). 
+-- curr is a pointer to walk through the tree. 
+-- while (curr != null || s.size() != 0) { ... } is the loop the walk the tree. 
+  -- If curr is not null, process current node, store it in the stack and move on to left child. 
+  -- If curr is null (reach leaf), pop from stack and move onto right child. 

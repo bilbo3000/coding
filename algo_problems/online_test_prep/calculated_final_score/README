@@ -1,0 +1,49 @@
+Given a list of test results (each with a test date, Student ID, and the student’s Score), return the Final Score for each student. A student’s Final Score is calculated as the average of his/her 5 highest test scores. You can assume each student has at least 5 test scores.
+You may use the JDK or the standard template library. The solution will be evaluated on correctness, runtime complexity (big-O), and adherence to coding best practices. A complete answer will include the following:
+Document your assumptions
+Explain your approach and how you intend to solve the problem
+Provide code comments where applicable
+Explain the big-O run time complexity of your solution. Justify your answer.
+Identify any additional data structures you used and justify why you used them.
+Only provide your best answer to each part of the question.class TestResult
+Use one of the following skeletons for your solutions.
+Java:
+class TestResult {
+      int studentId;
+      String testDate;
+      int testScore;
+   }
+
+public class FinalScoreQuestion {
+
+   Map <Integer, Double> calculateFinalScores (List<TestResult> results) {}
+
+Original questions:    
+/*
+Given a list of test results (each with a test date, Student ID, and the student’s Score), return the Final Score for each student. A student’s Final Score is calculated as the average of his/her 5 highest test scores. You can assume each student has at least 5 test scores.
+ 
+You may use the JDK or the standard template library. The solution will be evaluated on correctness, runtime complexity (big-O), and adherence to coding best practices. A complete answer will include the following:
+ 
+Document your assumptions
+Explain your approach and how you intend to solve the problem
+Provide code comments where applicable
+Explain the big-O run time complexity of your solution. Justify your answer.
+Identify any additional data structures you used and justify why you used them.
+Only provide your best answer to each part of the question.class TestResult
+*/
+ 
+/* Assumptions
+  Test results are integers, but the final average will be float.
+*/
+ 
+/* Describe your approach here. 
+    - push each test score into a map<int, priority_queue<TestResult>>
+    - add up the top 5 scores into a map of final results
+    - in map of final results, divide up the values by 5 if there are more than 5 test results for each student, or by n (n is # of student's test results)
+*/
+ 
+/* Enter your Big O Analysis here. 
+  O(n) - we go through each test score of the vector and don't end early if we insert more than 5 test score into the priority queue for each student
+*/
+ 
+/* Enter your code here. */

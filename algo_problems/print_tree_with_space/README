@@ -1,0 +1,6 @@
+Lesson learned: 
+-- The number of space at each level is equal to 2^h/2-2^i/2 where h is tree height and i is current level. 
+-- pow(2, 0)/2 equals to 0.5, not 0!!! 
+-- When pointing to the first element at current level, push new line for next level. Calculate and print spaces at current level. 
+-- When curr is NULL, just print a new line. Do nothing else. 
+

@@ -1,0 +1,8 @@
+Find max profit. At most two transition and only one transition at a time. 
+
+-- Dynamic programming. 
+-- Split into two transitions before (history) and after (future) each time point. 
+-- history[i]: max profit upto current point. history[i] = Math.max(history[i - 1], prices[i] - min); 
+  If sell at current point. 
+-- future[i]: max profit start from current point. future[i] = Math.max(future[i + 1], max - prices[i]); 
+  If buy at current point. 

@@ -1,0 +1,5 @@
+Remove given element from given array. 
+
+-- Move backwards from end. 
+-- last points to the last valid element in the array. 
+-- if current element is the same as target, move A[last] to A[curr] (if last != curr), then decrement both curr and last.

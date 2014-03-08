@@ -1,0 +1,8 @@
+Generate k-combinations out of 1..n
+
+-- Recursion. 
+-- The core idea is if we pick current element, we need to pick k - 1 elements from previous numbers. 
+-- During current iteration, loop on i from n to k, and recursively call f(i - 1, k - 1). For the return set, append 
+  i at the end of each item in the set. 
+-- If k == 0, return a set with an empty item. 
+-- If k > n, just return an empty set. 

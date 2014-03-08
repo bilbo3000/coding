@@ -1,0 +1,19 @@
+Lesson learned: 
+-- Compare between char and string. The [] operator of string will return a char: 
+
+string s = "a"; 
+char c = 'a'; 
+
+c == s; // wrong
+c == s[0]; // correct
+
+-- Recursion. If no char to process, return true. 
+-- str.substr(1); // Return substring start from second char as a string
+-- str.substr(0, 1);  // Return the first char as a string. 
+-- When create a new vector, we can use resize() to initialize the size: 
+// Initialize a mxn matrix with false
+vector<vector<bool> > mat; 
+mat.resize(m);
+for (int i = 0; i < m; i++) {
+    mat.assign(n, false); 
+}

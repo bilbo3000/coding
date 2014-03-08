@@ -1,0 +1,19 @@
+9/5/2013
+
+Dijkstra algorithm to find single source shortest path. 
+
+Fields: 
+-- Graph
+-- Node 
+-- Heap version and non-heap version 
+
+Operations: 
+-- 
+
+Lesson learned: 
+-- When build graph using adjacency list, adding element at the front of the list to avoid looping through the list. 
+-- Each node contains a parent field on shortest path, weight, and a field of current shortest distance to source (initialized to infinity). 
+-- queue doesn’t have top() function, use front() instead. 
+-- When BFS printing, only enqueue nodes that have not been visited. 
+-- Counting number of nodes is tricky. Do not mess up with counting number of vertices. 
+

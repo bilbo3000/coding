@@ -1,0 +1,8 @@
+Lesson: 
+-- Do it level by level (level from 0 to (min(row, col) - 1) / 2). 
+  Note that we use the minimun of row and col to be the level. 
+  
+-- Need to take care of the corner cases where: 
+  1) eventually only one element (can be handled by the following cases); 
+  2) eventually only one row (this only happens when odd number of rows, and when level == row / 2); 
+  3) eventually only one column (this only happens when odd number of cols, and when level == col / 2); 

@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Two pointers, fast and slow. fast start with the second node, slow start with the first node. 
+-- Make sure to consider the cases where: 
+    1) list is empty; 
+    2) list has one node (point to itself); 
+-- Each iteration, move fast first, if equal slow, return true. Otherwise, move both slow and fast. 

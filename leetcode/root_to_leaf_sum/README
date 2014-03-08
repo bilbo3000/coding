@@ -1,0 +1,3 @@
+Lesson learned: 
+-- Recursive. 
+-- Don't forget to check if node is equal to NULL. 

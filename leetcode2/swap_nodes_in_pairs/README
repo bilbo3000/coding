@@ -1,0 +1,5 @@
+Swap nodes in a linked list in pairs. 
+
+-- Recursion. 
+-- Recursively process the list start from the thrid element. 
+-- After return, swap first and second node and return the new head. 

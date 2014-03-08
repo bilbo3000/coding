@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Modified BFS. 
+-- Use a vector to keep track of next level. 
+-- When when current level is all processed, build next linked for next level. 
+-- Remember to clear the next level. 

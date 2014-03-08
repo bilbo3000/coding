@@ -1,0 +1,3 @@
+Lesson learned: 
+-- Use array to keep track of the length of substring ending at each char. 
+-- Use a boolean array with size of 26 to keep track of whether char is repeated. 

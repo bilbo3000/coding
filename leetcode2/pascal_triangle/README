@@ -1,0 +1,3 @@
+Generate pascal triangle for a given height. 
+
+-- For each level, two ends are 1's. Middle elements are the sum of two adjacent elements at upper level. 

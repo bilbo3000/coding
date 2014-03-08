@@ -1,0 +1,7 @@
+Lesson: 
+-- First time scan through the list to find out the length and tail. 
+-- Second time walk through the list, after process each node, decrement the length counter (stop until 0 --> all nodes have been processed), otherwise, it won't stop. 
+-- During second walk, if current element >= target, move it the tail. Attension: 
+    1) if current node is head --> update head; 
+    2) if current node is tail --> update tail; 
+    3) if current node is somewhere in the middle --> regular case. 

@@ -1,0 +1,12 @@
+Determine if a linked list has a cycle. 
+
+-- Slow and fast pointers. fast moves twice as fast as slow. If they meet, then there is a cycle. 
+
+while (fast != null) {
+  fast = fast.next; 
+  
+  if (fast != null) {
+    slow = slow.next; 
+    fast = fast.next; 
+  }
+}

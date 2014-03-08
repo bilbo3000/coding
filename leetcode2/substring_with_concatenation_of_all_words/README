@@ -1,0 +1,5 @@
+Find all starting indexs of substrings that are concatenations of a list of words where each word can be used once. 
+
+-- Build a HashTable to map words in the list to their count. 
+-- Implement a check function that check the substring start with current index. 
+-- Make a copy of the HashTable before each checking. Map<String, Integer> temp = new Map<String, Integer>(m); 

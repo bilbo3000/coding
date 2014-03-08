@@ -1,0 +1,7 @@
+Lesson: 
+-- BFS to solve shortest path sort of problems. 
+-- For each words in the current level, put all the words that can be derived from words in current level and has not been seen before into next level. 
+-- If find the end word, return. Otherwise, keep moving to next level. 
+-- Variable result would keep track of how many levels in between start and end word. 
+-- Make sure to keep track of the words that have already been seen. Otherwise, it would run into circles. 
+-- Two variables lev1 and lev2 to keep track of number of elements to be processed at current level (lev1) and number of elements have been discovered in the next level. This is helpful in identifing levels. 

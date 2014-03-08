@@ -1,0 +1,5 @@
+Remove duplicates from sorted array such at each element appears no more than twice. 
+
+-- Use a counter to check number of times each element has occur. 
+-- If current element is the same as the previous one and counter is 2, copy over all elements behind one slot to the 
+  left. Decrement the length and stay as the same position to re-examine the new comming element. 

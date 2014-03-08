@@ -1,0 +1,4 @@
+Lesson: 
+-- prev and curr pointers. 
+-- If prev == NULL, curr is a start of a new line. Push another NULL into queue to indicate the start of next line. Insert an empty vector to result. 
+-- If current is not NULL, insert its value into the last vector of result and push it children if they are not empty. 

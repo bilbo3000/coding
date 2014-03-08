@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Two stacks. 
+-- Stack 1 used to store the nodes that need to be visited. 
+-- Stack 2 used to store the nodes that have already been visited. 
+-- The basic idea is that every time we visit a node, we push that node on to the second stack (FILO, order finalized), and mark its children as "need to visit" by push them on to the first stack (left then right child). 

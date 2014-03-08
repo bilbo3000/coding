@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Find pivot point first. 
+-- Binary search on the side which the target falls into. 
+-- Return -1 if not found. 

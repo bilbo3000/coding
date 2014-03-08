@@ -1,0 +1,5 @@
+Find the min path sum from start to end in a grid. 
+
+-- Dynamic programming. 
+-- T[i][j]: the min path sum to reach cell i, j. 
+-- T[i][j] = min(T[i][j - 1], T[i - 1][j]) + grid[i][j]. 

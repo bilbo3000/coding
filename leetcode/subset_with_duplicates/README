@@ -1,0 +1,5 @@
+Lesson: 
+-- Recursive. 
+-- Each iteration, recursive on a set start from the second element. 
+-- Keep track of the history of all the subsets (sorted) we have seem. (Note that if two vectors have the same content, they would be equivalent and would have the same hash value in a map). 
+-- Once the recursive call returns, insert the first element to each vector in the return result and append the new vector (only if it is not in the history set, also need to update the history set) to the result. 

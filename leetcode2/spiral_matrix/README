@@ -1,0 +1,6 @@
+Collect values in a matrix in sprial order. 
+
+-- Implement moveRight, moveDown, moveLeft, and moveUp methods. Use variable to determine which level it is traveling.
+-- For example, for moveRight method, if x < n - 1 - level, then we can continue to move to the right. Otherwise if 
+  y < m - 1 - level, we can move down. Otherwise, there is no other moves. 
+-- Do not collect starting element twice in the moveUp method. 

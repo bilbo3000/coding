@@ -1,0 +1,21 @@
+9/8/2013
+
+Lesson learned: 
+-- The sorting and two pointers approach is much better. 
+-- Be careful about quick sort: 
+1) Need to pass left and right to quick sort instead of size. 
+2) Need to make sure right > left in QuickSort, but no need in Partition. 
+3) left and right are index, don’t mess up with size. 
+
+-- Hash x - a[i] into hash table, then scan through a, if a[j] also in hash table, then find two sum equal to x.
+
+-- Do not use this approach because it involves hashing negative numbers. 
+
+-- In hash table: 
+1) hash function takes key and generate index to hash table; 
+2) Insert takes key and insert key (and associated object if exist) to HashTable; 
+3) Search takes key and search the hash table. It returns the index if key matches, otherwise error out. 
+
+-- For finding three sum: 
+	1) make sure to sort the array. 
+	2) right can be at most be the previous of the current element being examined. 

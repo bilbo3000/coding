@@ -1,0 +1,6 @@
+Lesson: 
+-- Use stack to keep track all the name in the path. 
+-- i loop through the string, if it is a '/', use j to extract the name of that segment. 
+-- string cannot be NULL. 
+-- s[i] return a char, so do comparison with char: s[i] == '.', not s[i] == ".". 
+-- When generate the path off the stack, append "/" + stack.top() at the front of the result. 

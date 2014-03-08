@@ -1,0 +1,5 @@
+Determine whether it can jump from first to last index. 
+
+-- Dynamic progrmaming. 
+-- T[i]: whether it can jump to index i. 
+-- For calculating T[i], look at the distance from previoius elements to see if it can jump to index i. 

@@ -1,0 +1,6 @@
+Find all root to leaf path that sum to given number. 
+
+-- Recursion. 
+-- Use an ArrayList to keep track of current path and create a copy for each recursion call. (ArrayList is passed 
+  by reference). 
+-- If current node is a leaf and node.val == sum, add current path to the final result. 

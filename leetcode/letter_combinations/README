@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Recursion
+-- Use string mapping[] = {"abc", "def", ...}; to create the mapping.  
+-- Pass array to a function: void f(string s[]) {...} 
+-- Clear a vector: vec.clear(); // Remove all elements and set size to 0. 

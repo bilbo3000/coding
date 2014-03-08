@@ -1,0 +1,2 @@
+Lesson: 
+-- Scan through the array, if find given element, copy the last element to the current position and decrement the size of array by 1. 

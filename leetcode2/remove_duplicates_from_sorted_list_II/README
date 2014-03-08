@@ -1,0 +1,4 @@
+Remove elements such that only unique elements are left. 
+
+-- Use a boolean flag to determine whether found duplicates. 
+-- First remove all elements after curr, then remove curr. (need to maintain prev, also check whether prev == null). 

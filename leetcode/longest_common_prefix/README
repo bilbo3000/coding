@@ -1,0 +1,10 @@
+Lesson learned: 
+-- Use Trie. 
+-- Each node keeps tracks of the number of string that passes that node. 
+-- Then walk through the edges when cnt == strs.size() and collect char until cannot move further.
+-- Convert char to string: 
+    char c = 'a'; 
+    stringstream ss; 
+    ss << c; 
+    string str; 
+    ss >> str; 

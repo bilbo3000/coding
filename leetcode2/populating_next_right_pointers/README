@@ -1,0 +1,6 @@
+Each node points to the node on its right. Points to null if right most node. 
+
+-- BFS. 
+-- Toggle lev1 and lev2. 
+-- Clear lev1 before toggling. 
+-- Stop looping when lev1 becomes empty. 

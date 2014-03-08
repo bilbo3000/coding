@@ -1,0 +1,4 @@
+Lesson: 
+-- Recursion. 
+-- If input is NULL or only one node, return that node; 
+-- Else, swap current two nodes and recursively process the rest of the nodes. 

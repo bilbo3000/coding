@@ -1,0 +1,5 @@
+Reverse nodes in a linked list in k-groups. 
+
+-- Recursion. 
+-- Count k nodes and pass remaining to recursion calls. 
+-- Reverse current k nodes (also attach recursion returns) and return. 

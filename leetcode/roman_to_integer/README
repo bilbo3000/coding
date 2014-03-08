@@ -1,0 +1,2 @@
+Lesson learned: 
+-- If the value of current letter is greater than the value of previous letter, we subtract the value of previous letter twice and add value of current value. e.g. IV --> result - 1 - 1 + 5. IX --> result - 1 - 1 + 10. 

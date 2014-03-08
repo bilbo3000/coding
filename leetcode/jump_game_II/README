@@ -1,0 +1,8 @@
+Lesson: 
+-- Dynamic programming. 
+-- T[i]: the minimum jump to current position. 
+-- T[i] is equal to the min of T[j] where 0 <= j < i and A[j] can reach A[j] in ONE step (+1 step)!!!
+-- We only need to look at A[j] that can reach A[i] in one step because if A[j] can reach
+  A[i] in two steps, it will just jump from j to some place (say k) where k can jump to i in  
+  one step, we will just look at k rather than j. That is why we are able to just look at j's 
+  that can reach i in just one step. 

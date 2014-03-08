@@ -1,0 +1,18 @@
+8/30/2013
+
+Queue implementation. 
+
+Fields: 
+-- head
+-- tail 
+
+Operations: 
+-- Enqueue
+-- Dequeue
+-- Destroy
+-- Print
+
+Lesson learned: 
+-- Use linked list for queue
+-- Enqueue consider empty list 
+-- Dequeue consider empty list. Use head to walk through the list for destroy. Make sure to set tail to NULL. 

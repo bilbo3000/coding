@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Build a matrix, T[i][j] indiciates whether T[i..j] is a palindrome. 
+-- T[i][i] = true; 
+-- T[i][j] = (s[i] == s[j] && i + 1 == j); 
+-- T[i][j] = T[i + 1][j - 1] && (s[i] == s[j]);
+-- Note that when building for the 3rd case, make sure to loop i from 2 to size - 1 and j from i - 2 to 0. 

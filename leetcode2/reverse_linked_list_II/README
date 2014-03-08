@@ -1,0 +1,5 @@
+Reverse a linked list from mth node to nth node in place with one scan. 
+
+-- Use a counter to count current position. 
+-- Find mth node first, then start reverse, till nth node. 
+-- Consider the case when start reverse from the first element, need to update head. 

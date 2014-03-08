@@ -1,0 +1,4 @@
+Generate the nth "count and say" sequence. 1, 11, 21, 1211, ... 
+
+-- Two arrays, one to count the number of contiguous digits, the other to store the digit. 
+-- Walk through two arrays to generate next result. 

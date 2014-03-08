@@ -1,0 +1,7 @@
+Lesson: 
+-- The core idea is for each position, find the max height on the left and on the right 
+  respectively. 
+-- The water can appear on the current position is min(leftmax, rightmax) - curr_height
+-- This makes sense because the water level can possible go over current position is limited by 
+  min(leftmax, rightmax). The amount of water at current position is decremented by the height 
+  of current position. 

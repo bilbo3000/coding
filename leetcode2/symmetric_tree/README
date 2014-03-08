@@ -1,0 +1,5 @@
+Determine if a tree is mirror to its center. 
+
+-- Inorder traversal on left and right subtree of the root. Collect null on the branch, but do not collect null at
+  leaves (because the case {1, 2, 3, 3, #, 1, #}). 
+-- The left inorder should be the same as the reverse of right inorder. 

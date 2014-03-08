@@ -1,0 +1,10 @@
+Generate all unique subsets of of a given set with duplicated elements. 
+
+-- Recursion. 
+-- Sort the input array: Arrays.sort(num); 
+-- If element at index is not the same as element at index + 1, insert current element to all sets in the recursive 
+  return results. 
+-- If element at index is the same as element at index + 1, only insert current element to the sets that were introduced 
+  when processing element at index + 1. 
+-- The core idea is that we only need to look at the new sets that were introduced by previous same element, since 
+  other sets have already been handled by that same element. 

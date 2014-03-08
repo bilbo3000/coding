@@ -1,0 +1,8 @@
+Merge the given new intervals in a list of intervals. 
+
+-- Walk through the list until reach the end of list or there is no overlapping thereafter 
+  (intervals.get(i).start > newInterval.end). 
+-- For each current interval, if it overlaps with the newInterval (curr.end >= newInterval.start), extend newInterval 
+  with start to be min of starts and end to be max of ends. Then remove current from the list and re-examine current 
+  position. 
+-- Insert newInterval at the position after loop. 

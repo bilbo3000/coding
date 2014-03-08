@@ -1,0 +1,6 @@
+Lesson: 
+-- Traditional dynamic progrmaming would take O(n) space, where 
+  T[i] tracks the max subarray ending with A[i]. 
+-- Simplify version: int maxx is global max and int max is the max ending at current element. 
+-- max = Math.max(max + A[i], A[i]);  // Either merge current element to front, or start new one. 
+-- maxx = Math.max(maxx, max);  // To see if global max can be updated.  

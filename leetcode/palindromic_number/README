@@ -1,0 +1,6 @@
+Lesson learned: 
+-- Compare two digits from two ends towards the middle. 
+-- In order to get the left most digit, find the appropriate divisor that makes x / divisor < 10. 
+-- Once find that divisor, left would be x / divisor. 
+-- right is easy: x % 10. 
+-- The x for next iteration is computed as (x % divisor) / 10; --> peel off left most digit first and then peel off right most digit. 

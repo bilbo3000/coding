@@ -1,0 +1,14 @@
+Lesson: 
+-- Recursion. 
+-- The core idea is that: 
+    -- For current board, find first empty cell. (Note that if no more empty, 
+        which indicates we have already found a solution, just return true.
+        This is true because by that time, all the filled cells are valid). 
+    -- Try to place 1 to 9 at that cell while make sure placing that number 
+        is a valid move. (Note that here we only need to check current row, 
+        current column, and current quadrant, because only they can be 
+        impacted by current cell). 
+    -- If valid move, recursively process the new board. 
+    -- If not valid move, try next number. 
+    -- If all number are invalid. Reset current cell and return to upper level.
+    -- Make sure to pass board by reference to speed up. 

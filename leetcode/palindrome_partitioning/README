@@ -1,0 +1,5 @@
+Lesson: 
+-- Recursion + backtracking. 
+-- For given current string, try all possible prefix that are palindromes. Add the current palindrome prefix to a vector and pass down the vector to the recursive call that process the remaining parts. 
+-- Make sure that when the recursive call returns, pop_back() the prefix from the vector such that the next palindrome prefix can be added. 
+-- During recursive calls, when there is no string to process, insert current vector (which contains one valid partition) into result set. 

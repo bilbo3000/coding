@@ -1,0 +1,8 @@
+Convert integer to roman numeral. 
+
+-- Find the proper divisor for the left most digit. digit = num / divisor; Update num: num = num % divisor. Stops 
+  when number becomes 0. 
+-- If digit is 1-3: add that number of divisor letters. 
+-- If digit is 4: add divisor letter and divisor * 5 letter. 
+-- If digit is 5-8: add divisor * 5 letter and digit - 5 number of divisor letters. 
+-- If digit is 9: add divisor letter and divisor * 10 letter. 

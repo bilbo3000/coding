@@ -1,0 +1,6 @@
+Find a root to leaf path sum that is equal to the given number. 
+
+-- Recursion. 
+-- If node == null, return false; 
+-- If node is a leaf and node.val == sum, return true; 
+-- otherwise, recursion on left and right subtree with sum - node.val and return the OR of the two return values. 

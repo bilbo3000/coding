@@ -1,0 +1,3 @@
+Lesson learned: 
+-- A leaf must have both left and right child be empty. 
+-- During recursive calls, if only one child is empty, then only recursion on the non-empty child. 

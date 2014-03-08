@@ -1,0 +1,6 @@
+Find out whether a word exists in a board. Same letters cannot be used more than once. 
+
+-- Recursion. 
+-- When there is a letter match, set that position to '+' and recursively move on to its four neighbors (if matches and
+  exists) in tern. 
+-- Before each recursive return, set '+' back to original letter. 

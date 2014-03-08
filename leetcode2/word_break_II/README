@@ -1,0 +1,5 @@
+Break a string into dictionary words. 
+
+-- Dynamic programming. 
+-- T[i] is a vector of starting indexs of the words that end at s[i]. 
+-- DFS when reconstruct the sentence. When reaches index 0, collect into result set. 

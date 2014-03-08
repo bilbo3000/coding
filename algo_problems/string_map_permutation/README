@@ -1,0 +1,20 @@
+给一个String和map,
+map里面有以string的每个char为key的mapping,value 是一列的char.
+
+求这个string基于map的string permutation。
+example:
+cdlo
+
+'c' -> ('C', 'x')  
+'l' -> ('L', '9')
+'o' -> ('O')
+'d' -> ('D')
+
+==> CDLO, CD9O, xDLO, xD9O
+
+这个做的还行。但是人家问，
+1. 如果mapping不fit in memory,怎么办？
+2. 假如mapping fit in memory, 但是可能很大，怎样才比较efficient?
+
+我对于1的想法是根据string的每个char做hash partition， 分到不同的机器，map.
+get 的时候从不同机器拿value,想想就知道十分不efficient

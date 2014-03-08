@@ -1,0 +1,5 @@
+Lesson learned: 
+-- Dynamic programming
+-- Two transactions cannot overlap --> split into history and future at each time point. 
+-- history[] --> max profit up to this point (whether new values are high enough to sell). 
+-- future[] --> max profit start from this point (whether new values are low enough to buy). 

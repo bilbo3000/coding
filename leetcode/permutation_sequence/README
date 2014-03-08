@@ -1,0 +1,7 @@
+Lesson: 
+-- Generate next permutation k - 1 times and return the generated permutation. 
+-- Core idea of generating next permutation: 
+    1) Find the last s[i] < s[i + 1]. If cannot find, it means there is no next permutation. The idea is that we want to find the last opportunity to make an increment.
+    2) Find the last s[j] > s[i]. The idea is we want to increase by least amount. 
+    3) Swap s[i] and s[j]. 
+    4) Reverse the substring after i. This makes the least increment. 

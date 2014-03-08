@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Check whether row and colum satisfy the requirements respectively. 
+-- Flags for row and column are true initially for current element, once find a counter example for row/column, set flag to false and break immediately. 
+-- Keep trying next item until either run out of elements (has no influencer) or both row and column satisfy the constraints. 

@@ -1,0 +1,8 @@
+Lesson: 
+-- Recursion. 
+-- The first element in the preorder traversal must be the root. 
+-- Use a map to map the value to its index for the inorder traversal. 
+-- Once we obtain the root from the preorder, we can find the index of root from the map and 
+  able to partition the inorder and preorder into two subtrees. 
+-- Pass vectors, maps by reference to save space. 
+-- Be careful about manipulating index. 

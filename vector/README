@@ -1,0 +1,22 @@
+9/2/2013
+
+Vector implementation. 
+
+Fields: 
+	-- array
+	-- size  // How many elements in the vector 
+	-- space   // How many space are allocated 
+
+Operations: 
+	-- operator[]
+	-- Insert
+	-- Delete from given index 
+	-- PrintVector
+
+Lesson learned: 
+	-- Using class template and method template
+	-- Member functions are considered as function templates, thus their implementation requires template attribute, but no the definition in the class. 
+	-- In the implementation of a class template, make sure the class name before scope resolution operator :: has template tag such as “MyClass<T>::”
+	-- Overload operator[]
+	template <class T> 
+	T Vector<T>::operator[](int index) { … }

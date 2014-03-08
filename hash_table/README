@@ -1,0 +1,36 @@
+8/28/2013
+
+Hash table implementation. 
+
+Fields: 
+-- Array of Record pointers
+
+Operations: 
+- Insert (Linear probing): 
+  1. If hashTable[h(key)] is empty --> insert record, return true; 
+  2. If hashTable[h(key)] is occupied --> 
+    2.1 If key are the same, do nothing and return true; 
+    2.2 otherwise, examine next slot until find empty slot or exceeds limit; 
+
+- Search: 
+  1. If hashTable[h(key)] is empty --> unsuccessful, return empty string; 
+  2. If hashTable[h(key)] is occupied --> 
+    2.1 If key are the same, successful, return the stirng value of that record; 
+    2.2 Otherwise, check next slot until find: 
+      2.2.1 Matching key (successful); 
+      2.2.2 Empty slot (unsuccessful); 
+      
+- Remove: Similar to "Search" function, except it set the entry to NULL. 
+
+Lesson learned: 
+- During Insert() and Search(), when increase the index to find empty slot/target key, make sure to do index = (index + 1) % MAX 
+  to wrap around. 
+  
+- Use string instead of char *. 
+
+- Use array of pointers as hash table, because pointer can be NULL, which is 
+  handy when checking empty slots. 
+- When return type is string, cannot return NULL. Could return "" or string(). 
+- During insert, make sure to consider the case where the record already inserted. 
+- During search, make sure to consider the case where it encounters an empty slot. 
+- During remove, make sure to delete the memory pointed by the pointer. 

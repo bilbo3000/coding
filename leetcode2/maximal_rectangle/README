@@ -1,0 +1,4 @@
+Find the maximum area of 1's in a board. 
+
+-- Use an array to keep track of the length of each "hang line", reset to 0 if current cell in board is not 1. 
+-- Then, for each line, push to left and right as far as it could and update max area accordingly. 

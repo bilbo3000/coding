@@ -1,0 +1,4 @@
+Merge k sorted lists. 
+
+-- Recursion + divide & conquer. 
+-- Recursively dividing number of lists into halves and then merge smaller lists into larger lists in a bottom up fashion. 

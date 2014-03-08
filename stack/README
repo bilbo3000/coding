@@ -1,0 +1,16 @@
+8/30/2013
+
+Stack implementation. 
+
+Member: 
+-- Top
+
+Operations: 
+-- Push
+-- Pop
+-- Print
+-- Destroy
+
+Lesson learned: 
+-- Use linked list for stack. 
+-- Push doesn’t need to worry about empty stack. 

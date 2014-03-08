@@ -1,0 +1,6 @@
+Generate nXn matrix in spiral order. 
+
+-- Move four directions. 
+-- moveRight, moveDown, moveLeft, moveUp. 
+-- Be careful about moveUp method. 
+-- level = (n + 1) / 2 

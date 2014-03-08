@@ -1,0 +1,5 @@
+Implement atoi() function. 
+
+-- Ignore all leading white space and tailing non letter characters. 
+-- Consider the first non-white space letter be +/-. 
+-- Use long to store results, return MAX_VALUE/MIN_VALUE if overflow. 

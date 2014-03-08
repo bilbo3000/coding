@@ -1,0 +1,8 @@
+9/7/2013
+
+Topological sort 
+
+Lesson learned: 
+-- The graph is directed. 
+-- The order of dfs. 
+-- Use separate array to keep track of whether a node has been visited. 

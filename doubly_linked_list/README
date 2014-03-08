@@ -1,0 +1,19 @@
+8/29/2013
+
+Doubly Linked List implementation. 
+
+Fields: 
+-- head
+-- tail
+
+Operations: 
+- Destroy
+- Insert
+- Delete
+- Search
+- Print
+- PrintReverse
+
+Lesson learned: 
+- When delete last item, be careful about curr->next->back, because it does not exist!!! Also, don’t forget to update tail. 
+- Segmentation fault usually due to something = NULL ranther than something == NULL  !!!

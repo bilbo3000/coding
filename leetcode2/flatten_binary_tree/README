@@ -1,0 +1,10 @@
+Flatten a binary tree to linked list. 
+
+-- Inorder tree traversal. 
+-- while (curr != null || stack.size() != 0) { ... }
+-- If curr == null, pop stack to current and set prev.right to curr. 
+-- If curr != null: 
+  1) push curr.right;
+  2) move curr.left to curr.right; 
+  3) DON'T forget to set curr.left to null; 
+  4) Update prev to curr and curr to curr.left; 

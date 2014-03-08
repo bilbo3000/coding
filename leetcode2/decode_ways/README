@@ -1,0 +1,6 @@
+Find all the ways to decode an input number sequence. 
+
+-- Dynamic programming. 
+-- T[i]: number of decode ways for first ith letters. 
+-- T[i] = T[i - 1] if current char is not '0'. 
+        += T[i - 2] if current previous char is '1' or previous char is '2' and current char is <= '6'. 

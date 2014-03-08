@@ -1,0 +1,6 @@
+Implement text justification. 
+
+-- Store words can fit into current line. 
+-- Count accumulate length of words that fit into current line. 
+-- Calculate total number of space, number of space in between, and remaining space for current line. 
+-- Examine the last line. 

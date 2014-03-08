@@ -1,0 +1,5 @@
+Lesson: 
+-- Two pointers walk through the list, curr1 and curr2. curr1 starts from head and curr2 start from the second item. 
+-- while (curr2 != NULL && curr2->next != NULL) --> advance curr1 by 1 and advance curr2 by 2. (curr2 runs twice the speed as curr1). 
+-- Eventually, curr1 will point to the last element in the first half. Use that one as the root. 
+-- Recursively process the first half as left subtree and the second half as right subtree. 

@@ -1,0 +1,5 @@
+Lesson: 
+-- Use vector array; 
+-- When multiply two numbers (could be very large), consider put numbers into vectors. The result vector would have length: len1 + len2. LSB store at LSB in the array make it more intuitive to work with.
+-- Each digit multiplication will have it carry. If after looping and carry is not zero, we need to add it to next bit in the result vector (that bit could exceed 10, but its find at this moment becasue the multiplication of next digit will handle it by generating new digit and new carry).
+-- When convert the result vector to result string, need to start from the leftmost non-zero digit. If all zeros, just return "0"; 

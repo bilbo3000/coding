@@ -1,0 +1,6 @@
+Find the longest palindromic substring of a given string. 
+
+-- Dynamic programming. 
+-- T[i][j]: true if s[i..j] is a palindrome. 
+-- While building the table, maintain left and right indexs corresponding to the max length. 
+-- T[i][j] = (s.charAt(i) == s.charAt(j)) && T[i + 1][j - 1], thus we need to build the table from bottom up. 

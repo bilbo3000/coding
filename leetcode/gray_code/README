@@ -1,0 +1,15 @@
+Lesson: 
+-- Mirror. 
+1 bit: 
+0
+1
+
+2 bit: 
+00
+01
+11
+10
+
+The idea behind mirror is that when it gets to the middle point by alternating just one bit, it can also get back to the starting point from the middle point by alternating just one bit. Toggle the MSB allow it transit through the middle divide line. 
+
+-- Make sure to convert binary string representation to the decimal representation. 

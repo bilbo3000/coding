@@ -1,0 +1,6 @@
+Determine if an integer is a palindrome number. 
+
+-- Negative numbers are not palindrome numbers. 
+-- First find the largest divisor such that num / divisor < 10. 
+-- Peel off and compare left and right digit. left = num / divisor; right = num / 10; num = (num % divisor) / 10; 
+-- Don't forget to shrink divisor to be divisor / 100, which will handle the case 1000110001 --> 00011000

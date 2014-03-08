@@ -1,0 +1,4 @@
+Each node points to its right node. (May not be complete binary tree). 
+
+-- BFS. 
+-- Toggle lev1 and lev2. 

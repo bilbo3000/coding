@@ -1,0 +1,4 @@
+Lesson: 
+-- Merge sort. 
+-- Everytime when inserting an element, consider the case there the list 
+    inserting to is NULL. 

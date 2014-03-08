@@ -1,0 +1,4 @@
+Lesson: 
+-- Two variables: 
+    lev1: keep track of how many elements still need to process at current level. If it becomes 0, which means we have processed all elements at current level. We can print a new line and update it with number of elements in the next level (lev2); 
+    lev2: number of elements we have explored so far. It will be assigned to lev1 when lev1 becomes 0. 

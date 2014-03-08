@@ -1,0 +1,9 @@
+9/6/2013
+
+Find ith smallest element from an integer array. 
+
+Lesson learned: 
+-- After partition, if the ith smallest element is on the second half, be careful that it is not ith smallest element 
+  anymore on the second half, it should be i - (pivotIndex + 1) th element in the second half. And should compare 
+  (pivotIndex - left + 1) with it. 
+-- If there is just one element in the array, return it. 

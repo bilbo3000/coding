@@ -1,0 +1,13 @@
+From all shortest path from start to end with transformation intermediate words from a dictionary. 
+
+Better solution: 
+-- BFS. 
+-- Use a HashMap<String, ArrayList<String>> to map each word to its ancestors. 
+-- Toggle lev1 and lev2 between current level and next level. 
+-- Remove current level from dict to avoid cycles. 
+-- Recursively reconstruct the path from the map. 
+
+Solution1.java: 
+-- BFS start from end, DFS reconstruct paths. 
+-- Fail on large test. 
+

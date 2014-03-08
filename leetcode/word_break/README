@@ -1,0 +1,6 @@
+Lesson: 
+-- Dynamic programming. 
+-- T[i]: whether the first ith letter can be segmented into dictionary words. 
+-- T has size of s.size() + 1. T[0] initialize to true. 
+-- T[i] = Union of (s.substr(j, i - j + 1) in dict && T[j - 1]), where j goes from i to 1. 
+-- Finally return T[s.size()]. 

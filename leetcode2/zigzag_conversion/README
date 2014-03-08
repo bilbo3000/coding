@@ -1,0 +1,6 @@
+Convert a given string to zigzag version. 
+
+-- Use a flag to determine move up or move down. 
+-- If curr < n - 1 && flag == 0, curr++ (move down). 
+-- If curr > 0 && flag == 1, curr-- (move up). 
+-- If curr == 0, flag = 0; If curr == n - 1, flag = 1; (change direction). 

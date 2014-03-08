@@ -1,0 +1,4 @@
+Remove duplicates from sorted array. 
+-- Two pointers. 
+-- i always points to the last element in the array does not contain duplicates. 
+-- j traverses the array and replaces A[i + 1] with A[j] is A[j] != A[j - 1] 

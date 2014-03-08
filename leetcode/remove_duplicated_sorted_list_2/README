@@ -1,0 +1,6 @@
+Lesson: 
+-- Use two pointers prev and curr to walk the list. 
+-- curr points to the first element and delete all the duplicates behind it. 
+-- Use a boolean variable to indicate whether any duplicates has been deleted. When false, just advance prev and curr. 
+-- However, if true, need to delete curr by using prev. --> need to consider the cases where delete head and delete somewhere in the middle.
+-- When calling curr->next, need to check curr != NULL. When calling curr->next-val, need to check curr->next != NULL. 

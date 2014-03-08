@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Don't forget to advance the pointer. 
+-- If both ptr1 and ptr2 are NULL, there still could be a carry: {5} + {5}
+-- Do not use if-else for last carry checking, just put it after the pt1 or pt2 NULL checking. 

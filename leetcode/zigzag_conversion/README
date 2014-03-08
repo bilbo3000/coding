@@ -1,0 +1,2 @@
+-- Use a counter to keep track of current row index. 
+-- Use a boolean flag to indicate moving up or moving down. 

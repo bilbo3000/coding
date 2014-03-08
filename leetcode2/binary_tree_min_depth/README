@@ -1,0 +1,8 @@
+Find the min depth of a binary tree. 
+
+-- Recursive. 
+1) if node == null, return 0; 
+2) if node.left == null && node.right == null, return 1;  (found a leaf)
+3) if node.left == null, return minDepth(node.right) + 1; if node.right == null, return minDepth(node.left) + 1; 
+  (In these two cases, do not recursion on the null branch). 
+4) otherwise, return the min of the results returned by left and right subtree + 1; 

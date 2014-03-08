@@ -1,0 +1,7 @@
+Binary tree postorder traversal. 
+
+-- Using two stacks. 
+-- Stack 1 is used to store nodes that need to be processed (i.e. their children need to be sorted out). 
+-- Stack 2 is to store nodes that already been processed. 
+-- While stack 1 is not empty, we pop one node to stack 2 and push its children (if not null) into the first stack. 
+-- The popping order of stack 2 at the end is the post order traversal. 

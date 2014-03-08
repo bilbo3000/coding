@@ -1,0 +1,5 @@
+Validate a bst. 
+
+-- Step 1: recursively check if all nodes in left subtree is less than current node. 
+-- Step 2: recursively check if all nodes in right sbutree is greater than current node. 
+-- Step 3: recursively process left and right subtrees. 

@@ -1,0 +1,9 @@
+Evaluate expression in reverse polish notation. 
+
+-- While scanning the symbols, if current symbol is a number, push it onto the stack. 
+-- If current symbol is an operator, then pops two operands op2 and op1. Then push the operation 
+  result back to the stack. 
+-- The final result would be the last element left in the stack. 
+
+-- Compare strings using .equals()
+-- Integer.parseInt() to convert string to integer. 

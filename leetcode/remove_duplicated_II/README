@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Use a hash table to counter the occurance of each value. 
+-- Create temporary vector to keep track of the result. 
+-- Copy the temporary vector back to the original input array. 

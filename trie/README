@@ -1,0 +1,22 @@
+9/1/2013
+
+Trie implementation. 
+
+Fields: 
+	-- root 
+
+Operations: 
+	-- CreateNode: create a new node 
+	-- AddWord: add a word to the trie
+	-- CountPrefix: count the number of words in the dictionary that have a string prefix as prefix.
+	-- CountWords: count the number of words in the dictionary that match exactly with a given string word.
+
+Lesson learned: 
+	-- Once a word pass a node, the prefix count of that node increase by 1. 
+	-- When increment a pointer, it points to the next memory block increment by the amount of its type
+	-- cout << ‘b’ - ‘a’ << endl;  The result is 1. 
+	--     
+const char * c = "the";   // Because string literal “the” is not supposed to be modified, thus needs to be “ const char * ”
+t.AddWord(root, c);
+…
+void Trie::AddWord(Node * n, const char * word)

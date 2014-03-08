@@ -1,0 +1,8 @@
+9/9/2013 
+
+Print all possible parenthesis 
+
+Lesson learned: 
+-- Recursive 
+-- Right paren cannot be printed more than left paren!!! (check how many right remains)
+-- Pass l -1 to recursive calls instead of l-- then pass l, because when it returns, you want the same l. 

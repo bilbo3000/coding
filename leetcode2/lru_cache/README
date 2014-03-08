@@ -1,0 +1,9 @@
+Implement LRU cache. 
+
+-- Use doubly linked list. 
+-- Head of the list is MRU position while the tail of the list is LRU position. 
+-- Use a hash table to map key to node. 
+-- Node is an inner class contains key, val, next, and prev. 
+-- get: if not exist, return -1; otherwise, move the head and return the value. 
+-- set: if not exist, add new node to the front (remove tail if exceeds size); otherwise, update the new value. 
+-- When move nodes, do not forget the check and update head and tail (if null) accordingly. 

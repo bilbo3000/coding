@@ -1,0 +1,14 @@
+Lesson: 
+-- Recursion + dynamic programming
+-- Table T[i][j] is used to keep track of whether s1[i..] and s2[j..] would 
+	be interleaving string with s3. T is initialize with size s1.size() + 1
+	and s2.size() + 1 and all true.  
+-- Each iteration, check T first before move on. 
+-- If current front letter in s1 matches current front letter in s3, match,
+	increment both pointers and recursively process the remaining strings.
+	Set corresponding field in T if it fails. 
+-- If that fails, and current front letter in s2 matches current front letter 
+	in s3, match, and increment both pointers and recursively process the 
+	remaining strings. 
+	Set corresponding field in T if it fails. 
+-- If all fails, return false and set corresponding bit in T. 

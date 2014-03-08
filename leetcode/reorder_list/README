@@ -1,0 +1,11 @@
+Lesson learned: 
+Approach 1: Recursion. 
+-- Each recursion call, traverse the list till the end and move the last element after the first element. 
+-- Recursively process the remaining list in the same fasion. 
+-- Time consuming because it involves traversing through the list. 
+
+Approach 2: Recursion + walk backwards. 
+-- Keep traverse the list till the end. 
+-- Keep track the prev node, curr node, and current front (need to be passed by reference because lower level recursive calls need to modify it). 
+-- For each return, put curr node after the the current front, and advance current front by two nodes. 
+-- Also pass a boolean flag (by reference) to specify whether continue swaping or not. Stop swaping when curr front equals to prev or equals to curr (because no need to swap in these cases). 

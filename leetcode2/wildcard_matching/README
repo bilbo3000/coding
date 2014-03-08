@@ -1,0 +1,7 @@
+Implement wildcard matching for ? and *. 
+
+-- When see *, store the index for next char in s and the index for *. And try to skip * by incrementing j. 
+-- When mismatch, restore the indexs for next char to look at in s and the index for previous stored *, as if * matches
+  one more letter. 
+-- Consider the cases where either i == len_s (check if s only has * left) or j == len_p (see if can restore). Accept 
+  the result when both i and j equals to their corresponding length. 

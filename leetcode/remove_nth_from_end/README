@@ -1,0 +1,6 @@
+Lesson: 
+-- When need process a linked list in some sort of reverse fashion, consider using recursion. Maybe pass something along the way as reference so it can walk backwards. 
+-- Recursively process the list and pass a count variable as reference along the way. 
+-- When it hits the end of the list, start increment the count and backtrack. When count == n, delete the node. 
+-- Note that we also need to pass the current node as previous node to the next recursive call such that the recursive can delete next node if necessary.
+-- WARNING: before each iteration call returns, need to increment cnt. Otherwise, all nodes would be deleted !!!

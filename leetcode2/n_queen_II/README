@@ -1,0 +1,3 @@
+Count the number of distinct n queen placement for given dimension n. 
+
+-- Use an array rowcol to keep track of the column index for row. 

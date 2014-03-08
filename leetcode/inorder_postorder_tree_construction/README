@@ -1,0 +1,5 @@
+Lesson: 
+-- Recursive. 
+-- In post order, last element is the current root. 
+-- Find root in the inorder traversal. 
+-- Recursively process the left inorder+postorder and the right inorder+postorder

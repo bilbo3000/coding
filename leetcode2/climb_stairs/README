@@ -1,0 +1,4 @@
+Find number of ways to climb n stairs. 
+
+-- Dynamic programming. 
+-- T[i] = T[i - 1] + T[i - 2]; 

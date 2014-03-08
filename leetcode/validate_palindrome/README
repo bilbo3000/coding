@@ -1,0 +1,5 @@
+Lesson: 
+-- Use two pointers. 
+-- Not necessary to use recursion. Two pointers start from two ends and move towards each other. Each time it will point to next char. 
+-- Meanwhile, upper case letters will be converted to lower case letters. 
+-- If both letter match, advance both pointers. Otherwise, return false. 

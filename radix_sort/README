@@ -1,0 +1,8 @@
+9/7/2013
+
+Radix sort 
+
+Lesson learned
+-- When accumulating the index in counting sort, make sure to save previous non-zero value and add on top of that.  Basically only looking at positive values. 
+-- The counting array index are tricky, be careful. 
+-- Write output array to output array, then deep copy output array back to original array. Simply a=b won’t work. 

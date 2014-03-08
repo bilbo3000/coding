@@ -1,0 +1,4 @@
+Search for a range of the given element (start index and end index) in a sorted array. 
+
+-- Binary search. 
+-- Extends to both ends if find. 

@@ -1,0 +1,4 @@
+Determine if a sudoku board is valid or not. 
+
+-- Check row, column, and quadrants. 
+-- & has low precedence, make sure to use parentheses to enforce correct precedence. 

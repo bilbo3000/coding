@@ -1,0 +1,3 @@
+Lesson learned: 
+-- Dynamic programming. 
+-- T[i] = T[i - 1] + T[i - 2];  // Distinct ways to get to step i

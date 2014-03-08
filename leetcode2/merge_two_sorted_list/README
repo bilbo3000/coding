@@ -1,0 +1,4 @@
+Merge two sorted list. 
+
+-- Create a helper function that inserts given node after tail. 
+-- No need to set tail.next = null each time because we can reuse the function to insert whole list after while loop.

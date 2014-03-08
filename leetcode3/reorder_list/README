@@ -1,0 +1,7 @@
+Reorder the list such that the last node is moved after first node and the node next to the last 
+is moved to after second node, so on so forth. 
+
+-- Use stack rather than recursive calls. 
+-- Traverse the list and push nodes onto stack. 
+-- Then two pointers walk towards each other for the manipulation. 
+-- Stop conditions is while (front != prev && front != curr). 

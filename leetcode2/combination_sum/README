@@ -1,0 +1,9 @@
+Find all combinations of an array that sum equals the target number. Each number can appear many times. 
+
+-- Recursion. 
+-- Sort the list: Arrays.sort(candidates); 
+-- For each recursion call, it would have two options: 
+  1. Pick current element, then recursively process the remaining array (including current element) on 
+  target - current element. 
+  2. Skip current element, then recursively process the remaining array (excluding current element) on 
+  target. 

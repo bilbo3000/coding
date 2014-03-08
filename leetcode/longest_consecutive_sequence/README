@@ -1,0 +1,14 @@
+Lesson: 
+-- Merge cluster. 
+
+Approach 1: 
+-- Insert all elements into a set; 
+-- For each element, count number of consecutive elements before from the set and count the number of consecutive elements behind. 
+-- Add two lengths would be the new length of the new cluster. 
+-- Just need to find the longest one. 
+
+Approach 2: 
+-- Each element is mapped to the length of the cluster that starts or ends with this element. 
+-- If current element as a start of a cluster and the previous element as an end of a cluster, we can merge the two cluster and calculate a new length and map it to the new start and new end. 
+-- Similar idea apply when current element is an end of a cluster and the element immediately behind it is a start of a cluster. 
+-- Find the maximum one, maximum is initialized to 1, because when there is only one element in the array, nothing need to be merged, and we need to return 1.  

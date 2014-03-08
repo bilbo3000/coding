@@ -1,0 +1,11 @@
+Find kth permutation for number with n digits. 
+
+Solution 2: 
+-- Mathematical
+-- a_n = k / (n - 1)!
+-- If k / (n - 1)! is zero, choose the smallest number that is still hasn't been used. 
+-- If k / (n - 1)! is a digit that has already been used, use the smallest number that has not been used. 
+
+Solution 1:  
+-- Call next_permutation k - 1 times. 
+-- Fail large tests. 

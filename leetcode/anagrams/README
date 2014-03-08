@@ -1,0 +1,4 @@
+Lesson: 
+-- Sort anagrams would result same strings. 
+-- Thus, we can use sorted anagram as key of a map and store all the anagrams of that key in a vector as value. 
+-- Then, loop through the map to see which one's value has size greater than one. Then insert all values to result set. 

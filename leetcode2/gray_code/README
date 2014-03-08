@@ -1,0 +1,4 @@
+Generate a sequence of gray code for the given length. 
+
+-- Recursion. 
+-- Mirror the recursive return results. Then put "0" in front of the first half and "1" in front of the second half. 

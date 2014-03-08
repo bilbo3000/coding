@@ -1,0 +1,5 @@
+Lesson: 
+-- Find the first element that is smaller than the one before, which split the array into two halves. 
+-- Do binary search on both halves. 
+-- Pass array, left, right, and target to each binary call. If (l > r) --> return false. Othersise, get mid and check three conditions: ==, <, > and decide how to move on. 
+-- The result is the OR of both havles. 

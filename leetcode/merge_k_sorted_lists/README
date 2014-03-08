@@ -1,0 +1,4 @@
+Lesson learned: 
+-- Recursion on first half and the second half of the vector of ListNodes. 
+-- Merge the return results from both recursive calls. 
+-- During the merge, ALWAYS consider the situation where the return value is NULL. For example, when head/tail == NULL, head/tail->next would cause compile error. 

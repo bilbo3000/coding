@@ -1,0 +1,16 @@
+8/29/2013
+
+File IO basics. 
+
+Operations: 
+  - Read
+  - Write
+  - Remove
+
+Lesson learned: 
+  - When creating streams, make sure to convert file path from string to char array 
+    using c_str() function. 
+  - Don't forget to close the file. 
+  - When read from the file, make sure to check stream.good(). 
+  - Don't have to check if file exists before deletion.
+  - When using ifstream, do not call open(). 

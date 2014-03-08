@@ -1,0 +1,8 @@
+Lesson learned: 
+-- Find all overlap intervals and replace them with one merged interval where start is the min of all mins and max is the max of all maxs. 
+-- Make sure to insert the new interval after the last overlap interval and then remove all the overlap intervals. 
+-- If two boundaries are the same, they are also considered as overlap. 
+-- When loop from higher to lower index, make sure to do i--, rather than i++. 
+-- Insert and erase of a new element at given position in a vector: 
+vec.insert(vec.begin() + index, new_item);
+vec.erase(vec.begin() + index); 

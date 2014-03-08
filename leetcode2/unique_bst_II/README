@@ -1,0 +1,6 @@
+Generate all unique bst store values 1..n. 
+
+-- Recursion. 
+-- Use each number as root, and recursion on left and right. 
+-- Collect results with all pairs of left and right results. 
+-- Consider the cases where the result returned by left or right is empty. 

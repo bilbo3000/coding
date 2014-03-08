@@ -1,0 +1,17 @@
+Return the node where cycle starts (if exists cycle). 
+
+Approach 1: 
+-- Use a HashSet to keep track of all the nodes have been seen. 
+-- Return the first duplicated node. 
+
+Approach 2: 
+-- fast, slow pointer approach. 
+-- Let x be the number steps it takes to reach the start of cycle. 
+-- Let y be the number of nodes in the cycle. 
+-- Let m be the length of last partial cycle. 
+-- For this problem, fast and slow need to start from the head. Because of the distance comparison. 
+-- Because the distance of fast is twice that of slow. Thus, we have x + ky + m = 2(x + ty + m), which can be reduced to 
+  x + m = (k - 2t)y. Thus, (x + m) % y == 0. This means that if slow moves x more steps, it would reach the start of 
+  the cycle. 
+-- Then, we can move two pointers with same speed, one start from the beginning and one starts from the meet point, 
+  their meet point would be the start of the cycle. 

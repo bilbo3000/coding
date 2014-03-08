@@ -1,0 +1,7 @@
+Implement sqrt(x) function. 
+
+-- The core idea is to double the current number each iteration until first curr * curr >= x. Then do binary search 
+  from prev to curr. 
+-- Use long for curr and prev to avoid overflow during doubling. 
+-- Same as binary search, loop condition would be while (prev <= curr). After the loop, always return curr. (like 
+  always return right in binary search)

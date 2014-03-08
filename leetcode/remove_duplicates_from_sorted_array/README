@@ -1,0 +1,3 @@
+Lesson: 
+-- Do not swap the last element with the current duplicate element. Because the array is sorted. 
+-- If a duplicate is found, keep copy next element to current position until the end of array. 

@@ -1,0 +1,4 @@
+Convert roman numeral to corresponding integer. 
+
+-- Walk through the roman numeral. If current value is less than next value, subtract current value from the result. 
+  Otherwise, add current value to the result. 

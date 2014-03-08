@@ -1,0 +1,6 @@
+Determine if s1, s2 is interleaving of s3. 
+
+-- Dynamic programming. 
+-- T[i][j]: whether first ith letters in s1 and first jth letters in s2 are interleaving of first i + j letters of s3. 
+-- T[i][j] |= T[i - 1][j] if s1.charAt(i - 1) == s3.charAt(i + j - 1) 
+           |= T[i][j - 1] if s2.charAt(j - 1) == s3.charAt(i + j - 1)

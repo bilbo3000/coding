@@ -1,0 +1,4 @@
+Lesson: 
+-- Recursion. 
+-- Recursively generates subsets for elements start from the second element. Then keep the return value and append a copy of each value with current element into the return value. 
+-- Note that DO NOT use result.size() to terminate the loop as we are keep appending elements to the vector. We should get the length of the return result vector ahead of time and use that length as terminate condition. 

@@ -1,0 +1,5 @@
+Lesson: 
+-- Recursive. 
+-- If current node is root and equal to param, found the path and return true. Otherwise return false. 
+-- If current node is NULL, return false; 
+-- Recursively process left subtree and right subtree and OR the results. 

@@ -1,0 +1,11 @@
+Lesson: 
+-- Two pointers: begin, end; 
+-- The core idea is that once we find the first window, we will maintain 
+   property. 
+-- needToFind table used as a reference to indicates the count of each letter
+   we need to find. 
+-- hasFound table used to keep track of the count of each letter in the window. 
+-- Once we found the first window, every time when we move the end pointer (update hasFound),   we will need to try to move begin pointer as far right as possible (test against hasFound
+   and needToFind, while updating hasFound). 
+-- Each iterations after getting a new window, test against the original window to see 
+   if it can replace the current minimum.   

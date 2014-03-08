@@ -1,0 +1,7 @@
+Insertion sort a linked list. 
+
+-- Loop through nodes start from the second node. 
+-- For each node, check nodes in the front to find the first node that is not less than the current node, which is the 
+  insert position. 
+-- If no place to insert, just move on. If find place to insert, move the current node to the insertion place. 
+-- After move current element, the next element becomes the new current element! 

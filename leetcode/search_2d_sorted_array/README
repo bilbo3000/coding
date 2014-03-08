@@ -1,0 +1,6 @@
+Lesson: 
+-- Start from the upper right corner.
+-- Repeat the following until either row or column exceeds the boundary. 
+    - If equals to the target, return true. 
+    - If larger than the target, move left (must be to the left). 
+    - If smaller than the target, move down (must be in the left bottom region).  

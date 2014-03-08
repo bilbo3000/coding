@@ -1,0 +1,6 @@
+Implement strstr() function, which returns a pointer to the first occurance the pattern in the text if exists, otherwise, 
+  return null. 
+  
+-- KMP algorithm. 
+-- Build prefix function. 
+-- Then use prefix function to match. 

@@ -1,0 +1,5 @@
+Find all three sums that equal to 0. 
+
+-- Sort the array first. Arrays.sort(num);
+-- Try each element at index i as head (skip all duplicates). 
+-- When update j, k, also use do-while statement to skip duplicates. 

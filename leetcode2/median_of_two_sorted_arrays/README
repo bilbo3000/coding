@@ -1,0 +1,9 @@
+Find the median of two sorted array. 
+
+-- Convert the problem to find the kth smallest element where k = (len1 + len2) / 2 + 1 when len1 + len2 is odd. If 
+  even, find the average of the kth and k + 1th. 
+-- For each k, look at the k / 2 th element in both arrays (consider the case where one array is too short). Also 
+  consider when k is odd. 
+  If A[k / 2] == B[k / 2], return that element because that is the kth element in both arrays. 
+  If A[k / 2] > B[k / 2], remove first part of B and continue search the k - j th element in the remaining two arrays. 
+  If A[k / 2] < B[k / 2], remove first part of A and continue search the k - i th element in the remaining two arrays. 

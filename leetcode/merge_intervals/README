@@ -1,0 +1,5 @@
+Lesson: 
+-- Sort intervals based on start. Then merge and delete (if necessary) one by one. 
+
+-- Insertion sort. Write to j + 1 in the end. 
+-- New start is the min of two starts and new end is the max of the two max. 

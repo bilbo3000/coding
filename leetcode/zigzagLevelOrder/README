@@ -1,0 +1,4 @@
+Lesson: 
+-- lev1, lev2 level tree traversal. lev1: number of elements left at current level to be processed. lev2: number of elements on the next level. 
+-- Use a vector to store next level and use a counter to keep track of which level i am on and decide whether to reverse or not. 
+-- in <algorithm>, reverse(vec.begin(), vec.end()); 
