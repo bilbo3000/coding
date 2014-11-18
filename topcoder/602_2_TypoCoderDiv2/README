@@ -1,0 +1,4 @@
+Find the number of times a coder change from brown to ciel and vice versa. 
+Scan the rating list from left to right, and check if current element is a transition from brown to ciel or 
+from ciel to brown. Increment the counter accordingly. Note that is the first element is over 1200, that count
+as one transition as well since a new player would start off as a ciel player. 
