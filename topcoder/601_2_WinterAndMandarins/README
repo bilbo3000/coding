@@ -1,0 +1,3 @@
+Select K elements from an array such that the difference between min and max is minimized. 
+Sort the array and shift a window of size K. Keep track of the minimum differences between the 
+first and the last elements of the window. 
