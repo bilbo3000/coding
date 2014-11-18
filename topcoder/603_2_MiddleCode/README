@@ -1,0 +1,6 @@
+Use StringBuilder to delete character from a String. 
+- StringBuilder sb = new StringBuilder(s); 
+- int length = sb.length(); 
+- char c = sb.charAt(index); 
+- sb.deleteCharAt(index); 
+- String s = sb.toString(); 
