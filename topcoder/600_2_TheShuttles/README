@@ -1,0 +1,7 @@
+All shuttles would have the same number of seats. The cost for each shuttle is calculated as 
+baseCost + x * seatCost, where x is number of seats. Number of employees at each location is stored in an array. 
+Each shuttle can only go to one location. Find the min cost. 
+
+The idea is that the number of seats can only ranges from the min to the max number of employees at 
+each location. Try each number of seats per bus and calculate coresponding cost. Keep track of the min
+cost while calculating. 
