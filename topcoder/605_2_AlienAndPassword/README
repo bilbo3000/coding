@@ -1,0 +1,4 @@
+A password is formed by delete a character from a String. Find the number of unique password it could 
+have for a given String. The idea was to use a set to keep track of the history. Then try to delete 
+each each character from the string (via StringBuilder). If the resulting string is nevern seen before,
+then increment the counter and add it to the history set. 
