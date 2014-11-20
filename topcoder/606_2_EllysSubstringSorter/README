@@ -1,0 +1,2 @@
+Find the smallest lexicalgraphically string generated for the given String with fixed suffix length L. 
+The idea was to get the prefix, and sort it. Then append the suffix to it to get the result. 
