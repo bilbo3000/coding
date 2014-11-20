@@ -1,0 +1,5 @@
+Given a list of Strings, find the number of unique pairs such that the second word can be formed by 
+split and swap the first word. The idea was that first sort the input list such that same strings 
+all fall into a cluster. Then loop through the list (skip duplicated words). For each word, try to 
+pair it with each word behind it (also skip duplicated words). For each pair, try all possible 
+split-swap. 
