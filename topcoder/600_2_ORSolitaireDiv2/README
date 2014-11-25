@@ -1,0 +1,13 @@
+Find minimum number of elements to remove from an array of numbers such that OR any number of the 
+remaining elements won't produce the target number. 
+
+The first step was to convert each element in the array to bit vector. (matrix)
+Also, convert the target number to bit vector as well. 
+Use a counting array to count the number of bits hit on each index by accumulating corresponding bits 
+from the elements in the input array. Note that we ignore elements that introduce bits that fall 
+out of bits masked by target number. Put another way, we only count elements that contributes a 
+subset of bits of the target number. The reason is that those elements won't be OR anyway, thus can 
+be safely ignored. 
+The last step is to find the minimum number in the count array, and that will be the minimum number 
+need to be removed. Make sense, because remove those elements that cover that bit, OR any elements 
+won't produce the target number. 
