@@ -1,0 +1,9 @@
+Given a list of types for each candy, find the number of ways to choose K candies such that their 
+types must be exactly from 1 to K. 
+
+The idea was to build a counting array to count the number of candies for each type. Then the upper 
+bound of K can be found, which is up to the first 0 in the counting array. Make sense, cannot go 
+beyond it since that type has zero candy. 
+Then scan through the counting array. The number of choices at current length is the number of 
+candies with current type times number of choices from previous length. 
+Accumulate the count while scanning through the array. Return the accumulative sum as result. 
