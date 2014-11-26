@@ -1,0 +1,11 @@
+Give a list of rectangles (represented by two edges) and a limit, find the max number of rectangles 
+that overlap to produce an intersection area that is at least limit. Note that rectangles can rotate. 
+
+The idea was to loop through the rectangles and for each rectangles, there are two options. First 
+option was to join all possible previous choices. In order to join a previous choice, the overlap 
+area of current rectangle and the previous overlap area must at least be as large as limit. In addition
+a rectangle can rotate, which both should be considered. The second option is to start a new sequence
+with current rectangle. Note its area must be at least as large as the limit. 
+Maintain two lists, one keep track of the current sizes of each choice sequence. The second list keeps 
+track of the current two edges that contributes the overlap area (Min x and min y). Update the second 
+list accordingly. 
