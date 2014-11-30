@@ -1,0 +1,5 @@
+Robot moving in a coordinate either up (increase y) or right (increase x). At step k, the robot must 
+move 3 ^ k units. Determine if the robot can reach a given coordinate. 
+
+The idea was to do BFS until either find the target coordinate or next level becomes empty. Note that 
+do not add invalid coordinate to next level during each iteration. 
