@@ -1,0 +1,7 @@
+Given a list of guesses and answers, in the form of absolute differences between guesses and actual 
+number. Return the actual number if exists. Return -1 if multiple answers. Return -2 if inconsistent. 
+
+The idea was to use a hash map to count the possible result. The actual number must appears in each 
+guess-answer pair, thus the len should be equal to the guesses/answers list length. If there multiple 
+entries satisfy this constraint, return -1. If none satisfy, return -2. Otherwise, return that single 
+element as the result. 
