@@ -1,0 +1,5 @@
+Find the smallest area of a rectangle such that all given points fall into the box. 
+
+The idea was to scan through the list of points and keep tracking of the left-most/right-most 
+x coordinates and top/bottom y coordinates. The resulting area would the product of the x-coordinate 
+difference and the y-coordiante difference absolute value. 
