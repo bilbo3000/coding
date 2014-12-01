@@ -1,0 +1,5 @@
+Given two lists of strings, concatenate strings into one. And count the number palindromic substrings in a string. 
+
+The idea was to using StringBuilder to concatenate strings then using a two dimension table to keep 
+track of whether T[i][j] is palindromic or not. After finish building the table, count the number of 
+elements in the matrix are set to be the number of palindromes in the table. 
