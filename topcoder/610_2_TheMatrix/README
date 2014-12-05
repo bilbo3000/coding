@@ -1,0 +1,8 @@
+Given a board, represented by 0 and 1. Find the area of largest chess board. 
+
+The same idea as hang line approach when find largest area of zeros in a board. 
+At each level, if current digit is different from the one above, increase the length of hang line 
+at that position by 1. Otherwise, reset the length of hang line at that position to 1. 
+After updating hang lines, push each hang line to the left and to the right as much as possible. 
+Either out of bound, or hang line too short cannot push, or digits are the same. Then calculate the
+area which is the product of hang line and the length after push. Update global result accordingly. 
