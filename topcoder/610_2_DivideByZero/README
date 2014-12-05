@@ -1,0 +1,9 @@
+Given an int array. Keep picking two distinct integers from the array. Divide the large one by the 
+small one. If the result does not exist in the array, add it to the array. Repeat this process until 
+there is nothing can be added. Find the number of elements in the array in the end. 
+
+The idea was to use a set as the history to keep track of all distinct elements in the array. Also 
+sort the list each time. Each iteration use two for loops to iterate through the list, start from 
+the end of list (because new element would be added to the end of the list). The termination condition
+is the size of list no long changes. This can be achieved by using a variable to store previous list 
+size. Return the list size in the end. 
