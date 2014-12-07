@@ -1,0 +1,5 @@
+Given one permutation of 1 through N with some missing digits and the number of pairs such that S[i] < S[j] when i < j, find 
+all possible ways to fill the missing digits. 
+
+Brute force approach. Try all possible ways to fill the list. For each way, check the sortedness 
+number by scanning through all possible pairs. 
