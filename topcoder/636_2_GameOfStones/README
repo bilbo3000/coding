@@ -1,0 +1,7 @@
+Give a list pile of stones, each trip can only move exact two stones at a time. Find the minimum
+trips such that each pile contains the same number of stones. 
+
+The idea was to get the sum first and divide by the number of piles. If is is divisible (remainder is
+0), then it is possible to make such a move. 
+Next step is to loop through the piles and look at piles with more than average number of stones and 
+determine how many trips it can offer. Add up that number in the final result. 
