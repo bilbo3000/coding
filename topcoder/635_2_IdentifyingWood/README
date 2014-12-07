@@ -1,0 +1,8 @@
+Check if t is a subsequence of s. 
+
+DP. 
+T[i][j] represents whether first j characters of t is a subsequence of first i characters of s. 
+If s[i] == t[j], the t[j] has two options.
+One is to match s[i], which leads to T[i][j] = T[i - 1][j - 1]; 
+The second one is to not match, thus gives T[i][j] = T[i - 1][j]; 
+If s[i] != t[j], then there's only one option because it cannot match: T[i][j] = T[i - 1][j]; 
