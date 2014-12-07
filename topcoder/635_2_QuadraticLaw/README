@@ -1,0 +1,8 @@
+Find the largest long that satisfies t^2 + t <= d. 
+
+Binary search. 
+Lower starts from 0 and upper starts from d. It makes sense because the value has to fall into this range. 
+Each iteration, check the middle element to see if it satisfy the condition. Meanwhile, use a separate 
+variable to keep track of most recent solution. 
+If found a solution, store it, and set lower to one above it to search for next closer solution. 
+Otherwise, which mean current value is too large. Set upper to one below it and start a new iteration. 
