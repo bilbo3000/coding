@@ -1,0 +1,5 @@
+Convert variable name from Snake form to Camel form. 
+
+The idea was to split the variable name in Snake form at '_'. 
+Then scan through the resulting list starting from the second word and convert 
+the first character of each to upper case. Append each word after conversion. 
