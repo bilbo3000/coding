@@ -1,0 +1,8 @@
+Find the number of all permutation of a list of wolves by swapping consecutive positions. 
+Note that two wolves can be swapped iff the sum of their sizes is less than the given max sum.
+
+The idea was to permute position index, rather than the value, because walves with the same sizes 
+are considered different. Use a set to keep track of the history. Each iteration, scan through 
+newly added permutation, until there are no new permutations are added. For each permutation, try 
+to swap each consecutive positions and store the result if it is not in the history. At the end, 
+all permutaiton would be in the history set. 
