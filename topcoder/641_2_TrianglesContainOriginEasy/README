@@ -1,0 +1,11 @@
+Given a list of points lie on a plane, determine the number of triangles formed by any three points 
+that contains the origin in the triangle. 
+
+The idea was to examine every single triple of points (3 layers of nested for loops). For each triangle, 
+use "cross product side" algorithm to determine whether a given point (the origin) falls into the triangle. 
+The reason behind the "cross product side" algorithm is that if a point fall into a triangle, the cross 
+product of two vectors (one edge and the vector to that point) should have the same sign for all three edges. 
+Could be all negative or all positive. 
+
+Reference: 
+- http://www.sunshine2k.de/coding/java/PointInTriangle/PointInTriangle.html
