@@ -1,0 +1,4 @@
+The first step is check if it is possible to find a total number of points that is equal to x + y, 
+while keeping track of number of turns. 
+Next step is to try to let Alice win as many large turns as possible. Thus need to loop through 
+turns from large to small. 
