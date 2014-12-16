@@ -1,0 +1,5 @@
+Give the number of cuts to a cake. Find the max number of 1X1 cakes it can get. 
+
+This is a parabola problem. Let say the given number of cuts is C and horizontal cuts is X. 
+Then total number of cakes Y = X (C - X). Thus, Y = -X^2 + CX. According to the middle pivot line 
+equation x = -b / 2a, when X = C / 2, Y would reach it largest. 
