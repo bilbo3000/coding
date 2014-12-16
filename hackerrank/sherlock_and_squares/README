@@ -1,0 +1,9 @@
+Find the number of integers between left bound and right bound such that the integer 
+is square of some integer, such as 1, 4, 9, 16, etc. 
+
+The idea was to start from the left bound and found the first integer that is the 
+square of another integer. (One can take the square root of the integer and then 
+restore the square of that resulting square root to see if the result is the same 
+as original integer. If yes, then it is a square integer.) Next step is to increase 
+the square root by one during each iteration until the square of that number exceeds 
+the right bound. Count the number of square root along the way. 
