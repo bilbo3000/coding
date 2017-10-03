@@ -1,6 +1,7 @@
 # Summary
 
 ## Array
+* How to get array length: arr.length
 
 ## Arrays
 * asList()
@@ -26,3 +27,4 @@
 ## Collection
 
 ## String
+* How to get String length: s.length()
