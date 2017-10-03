@@ -28,3 +28,4 @@
 
 ## String
 * How to get String length: s.length()
+* How to get a char from a String: char ch = text.charAt(0);
