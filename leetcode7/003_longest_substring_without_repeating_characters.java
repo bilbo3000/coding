@@ -12,6 +12,8 @@ Array -> essentially tells the window size of ending at each character.
 1) if the previous character fall outside the window, or not exist -> current character can extend its previous neighbor; 
 2) if the previous character fall into the window -> current character cannot extend its previous neighbor; And the longest
 substring ending at current character must start at the next index of its previous occurrence; 
+
+EPI P195
 */
 class Solution {
     public int lengthOfLongestSubstring(String s) {
