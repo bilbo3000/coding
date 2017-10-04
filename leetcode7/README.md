@@ -24,6 +24,9 @@
 
 * toString()
 
+How to print an array: 
+Arrays.toString(myarr);
+
 ## Collection
 
 ## String
