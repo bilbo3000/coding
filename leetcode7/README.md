@@ -3,6 +3,8 @@
 ## Array
 * How to get array length: arr.length
 
+* How to create a 2D array: int[][] m = new int[n][n];
+
 ## Arrays
 * asList()
 
