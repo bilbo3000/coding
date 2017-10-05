@@ -1,9 +1,8 @@
 # Summary
 
 ## Array
-* How to get array length: arr.length
-
-* How to create a 2D array: int[][] m = new int[n][n];
+* Get array length: arr.length
+* Create a 2D array: int[][] m = new int[n][n];
 
 ## Arrays
 * asList()
@@ -32,5 +31,6 @@ Arrays.toString(myarr);
 ## Collection
 
 ## String
-* How to get String length: s.length()
-* How to get a char from a String: char ch = text.charAt(0);
+* Get String length: s.length()
+* Get a char from a String: char ch = text.charAt(0);
+* Get substring from index i to j: s.substring(i, j + 1);
