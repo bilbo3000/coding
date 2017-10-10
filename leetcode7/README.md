@@ -52,3 +52,11 @@ Arrays.toString(myarr);
 * pop()
 * peek()
 * https://www.tutorialspoint.com/java/java_stack_class.htm
+
+## PriorityQueeu
+* boolean add(E element): This method inserts the specified element into this priority queue.
+* public remove(): This method removes a single instance of the specified element from this queue, if it is present
+* public poll(): This method retrieves and removes the head of this queue, or returns null if this queue is empty.
+* public peek(): This method retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+* iterator(): Returns an iterator over the elements in this queue.
+* boolean contains(Object o): This method returns true if this queue contains the specified element
