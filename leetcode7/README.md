@@ -25,6 +25,8 @@ Cause Integer type vs int type.
 * equals(A, B)
 
 * fills(A, 42)
+int[] count = new int[26];
+Arrays.fills(count, 0);
 
 * find(A, 28)
 
