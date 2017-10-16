@@ -1,11 +1,20 @@
 # Summary
 
+## Misc
+* Find mid bias towards left: int mid = (i + j) / 2; 
+* Find mid bias towards right: int mid = (i + j) / 2 + 1; 
+
 ## Array
 * Get array length: arr.length
 * Create a 2D array: int[][] m = new int[n][n];
+* Create and initialize an array: int[] arr = new int[] {1, 2, 3};
 
 ## Arrays
-* asList()
+* asList(). 
+Note that this is BAD: 
+int[] A = new int[]{1, 2, 3}; 
+List<Integer> list = Arrays.asList(A);
+Cause Integer type vs int type. 
 
 * binarySearch(A, 641)
 
@@ -28,7 +37,15 @@
 How to print an array: 
 Arrays.toString(myarr);
 
-## Collection
+## Set
+
+## List
+* Copy set to a list: List<Integer> list = new ArrayList<>(set);
+
+## Collection 
+* Swap two elements of a collection: Collections.swap(c, i, j);
+* Sort a list: Collections.sort(list);
+
 
 ## String
 * Get String length: s.length()
