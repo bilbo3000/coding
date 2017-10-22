@@ -72,10 +72,17 @@ Arrays.toString(myarr);
 * peek()
 * https://www.tutorialspoint.com/java/java_stack_class.htm
 
-## PriorityQueeu
+## PriorityQueue
 * boolean add(E element): This method inserts the specified element into this priority queue.
 * public remove(): This method removes a single instance of the specified element from this queue, if it is present
 * public poll(): This method retrieves and removes the head of this queue, or returns null if this queue is empty.
 * public peek(): This method retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
 * iterator(): Returns an iterator over the elements in this queue.
 * boolean contains(Object o): This method returns true if this queue contains the specified element
+
+## Dynamic Programming
+Usually, solving and fully understanding a dynamic programming problem is a 4 step process:
+* Start with the recursive backtracking solution
+* Optimize by using a memoization table (top-down[3] dynamic programming)
+* Remove the need for recursion (bottom-up dynamic programming)
+* Apply final tricks to reduce the time / memory complexity
