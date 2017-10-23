@@ -47,6 +47,16 @@ Arrays.toString(myarr);
 ## Collection 
 * Swap two elements of a collection: Collections.swap(c, i, j);
 * Sort a list: Collections.sort(list);
+* Empty list: Collections.EMPTY_LIST; 
+* Sort a list of intervals: 
+```
+Collections.sort(intervals, new Comparator<Interval>() {
+    @Override
+        public int compare(Interval i1, Interval i2) {
+            return Integer.compare(i1.start, i2.start);
+        }
+});
+```
 
 
 ## String
