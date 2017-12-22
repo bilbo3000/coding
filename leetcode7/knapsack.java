@@ -9,6 +9,10 @@
  * --> T[i][j] = T[i - 1][j] (Do not use ith item, capacity unchanged); 
  * Otherwise choose the max of choosing and not choosing ith item: 
  * --> T[i][j] = max(T[i - 1][j - capacity_of_i] + value_of_i, T[i - 1][j]);
+ * 
+ * Time: O(nw)
+ * Space: O(nw)
+ * Where n is the number of items, and w is the capacity; 
  */ 
 public class Solution {
 	
