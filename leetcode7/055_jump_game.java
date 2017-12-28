@@ -1,10 +1,10 @@
 /*
 Determine if possible to jump to last position. 
 
-Keep track of the current left-most good position.
+Keep track of the current left-most reachable position.
 If i + nums[i] >= pos, then i becomes the new pos. 
 
-In the end, if final left most good position is 0, then 
+In the end, if final left most reachable position is 0, then 
 it is reachable to the end. 
 
 Time: O(n)
