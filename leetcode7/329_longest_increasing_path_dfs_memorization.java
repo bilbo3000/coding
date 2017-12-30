@@ -5,8 +5,8 @@
  * of the longest path starting from matrix[i][j]. --> no need to calcualte 
  * multiple times. 
  * 
- * Time: O(n^2), each cell is caculated once. 
- * Space: O(n^2)
+ * Time: O(n), each cell is caculated once. 
+ * Space: O(n)
  */
 class Solution {
     public int longestIncreasingPath(int[][] matrix) {
