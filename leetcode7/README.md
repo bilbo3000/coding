@@ -81,6 +81,7 @@ Collections.sort(intervals, new Comparator<Interval>() {
 * pop()
 * peek()
 * https://www.tutorialspoint.com/java/java_stack_class.htm
+* Stack can be used to track increasing/decreasing sequence property. i.e. LC496.
 
 ## PriorityQueue
 * boolean add(E element): This method inserts the specified element into this priority queue.
