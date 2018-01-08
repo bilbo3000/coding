@@ -27,10 +27,11 @@ Cause Integer type vs int type.
 * fill(A, 42)
 int[] count = new int[26];
 Arrays.fill(count, 0);
+Arrays.fill(count, 1, 5); // Give a range[1, 5)
 
 * find(A, 28)
 
-* sort(A)
+* sort(A): will sort character array in lexicographical order; 
 
 * sort(A, cmp)
 
@@ -62,6 +63,8 @@ Collections.sort(intervals, new Comparator<Interval>() {
 ## String
 * Get String length: s.length()
 * Get a char from a String: char ch = text.charAt(0);
+* Convert a char to string: String s = String.valueOf(ch);
+* Convert a char array to string: String s = new String(carr);
 * Get substring from index i to j: s.substring(i, j + 1);
 
 ## Deque
